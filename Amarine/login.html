@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amarine - Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="marin.png" alt="Amarine Logo" class="logo">
+            <button onclick="location.href='register.html'" class="nav-button">MASUK</button>
+        </div>
+
+        <div class="form-container">
+            <div class="illustration">
+                <img src="gambar login.png" alt="Login">
+            </div>
+            <div class="form-content">
+                <h2>Masuk</h2>
+                <form onsubmit="validateLoginForm(event)">
+                    <input type="email" id="login-email" placeholder="Masukkan Email" required>
+                    <input type="password" id="login-password" placeholder="Masukkan kata sandi" required>
+                    <div class="form-content">
+                        <!-- Opsi Lupa Password dan Ingat Pengguna -->
+                        <div class="password-options">
+                            <label>
+                                    <input type="checkbox" name="remember"> Ingat Pengguna
+                                </label>
+                            <a href="#" onclick="forgotPassword()">Lupa Password?</a>
+                        </div>
+
+                        <button type="submit" class="form-button">Masuk</button>
+                </form>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="logo fb 2.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.apple.com" target="_blank">
+                        <img src="logo apple.jpeg" alt="Apple">
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <img src="logo google.png" alt="Google">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-text">
+            <span>Belum memiliki akun?? <a href="register.html">Daftar</a></span>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
