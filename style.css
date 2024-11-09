@@ -222,6 +222,7 @@ select {
   text-align: center;
   font-weight: 600;
   font-size: 1.35rem;
+  cursor: default;
 }
 
 .third-content {
