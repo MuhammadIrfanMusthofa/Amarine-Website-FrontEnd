@@ -1729,6 +1729,7 @@ select {
 .nama-personal {
   color: #21272a;
   margin-bottom: 2px;
+  font-size: 15px;
 }
 
 .posisi-personal {
