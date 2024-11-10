@@ -19,10 +19,13 @@ select {
   appearance: none;
 }
 
-/* Mengubah Warna Background NavBar dan Memberikan Padding */
+/* Mengubah Warna Background NavBar dan Memberikan Padding dan Sticky diatas halaman*/
 .navbar {
   background-color: #ff4800 !important;
   padding: 10px 25px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 /* Mengatur Ukuran Logo */
