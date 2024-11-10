@@ -75,9 +75,9 @@ document
     button.addEventListener("click", () => {
       const content = button.nextElementSibling;
       if (content.style.display === "block") {
-        content.style.display = "none"; // Menutup konten
+        content.style.display = "none"; 
       } else {
-        content.style.display = "block"; // Membuka konten
+        content.style.display = "block";
       }
     });
   });
@@ -101,11 +101,9 @@ function togglePassword(passwordId) {
   const passwordInput = document.getElementById(passwordId);
   const openEyeIcon = document.getElementById(`open-eye-${passwordId}`);
   const closeEyeIcon = document.getElementById(`close-eye-${passwordId}`);
-
-  // Toggle the input type between password and text
+  
   passwordInput.type = passwordInput.type === "password" ? "text" : "password";
 
-  // Toggle visibility of the eye icons
   openEyeIcon.classList.toggle("d-none");
   closeEyeIcon.classList.toggle("d-none");
 }
@@ -116,22 +114,19 @@ function toggleIngat() {
 }
 
 function moveToNext(currentInput, nextInputId) {
-  // Pastikan hanya satu digit yang dimasukkan
   if (currentInput.value.length === 1) {
-    document.getElementById(nextInputId).focus(); // Pindah ke input berikutnya
+    document.getElementById(nextInputId).focus(); 
   }
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-  if (!localStorage.getItem('hasVisited')) {
-    AOS.init({
-      once: true, // Hanya 1x animasi untuk setiap elemen
-    });
-    
-    // Tandai bahwa pengunjung sudah mengunjungi halaman
-    localStorage.setItem('hasVisited', 'true');
-  } else {
-    // Nonaktifkan AOS jika sudah pernah mengunjungi
-    document.body.classList.add('aos-disable');
-  }
-});
+function tampilkanPopupNelayan() {
+  const popup = document.querySelector(".wrapper-avatar-nelayan");
+
+  popup.style.visibility = "visible";
+  popup.style.opacity = "1"; 
+
+  popup.addEventListener("click", function () {
+    popup.style.visibility = "hidden";
+  popup.style.opacity = "0"; 
+  });
+}
