@@ -1790,6 +1790,16 @@ select {
   font-weight: 600;
 }
 
+.link-avatar {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #ffb16d !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
 .container-footer {
   background-color: #ff4800;
 }
