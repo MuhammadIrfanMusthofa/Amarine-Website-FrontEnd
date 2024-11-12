@@ -214,13 +214,6 @@ function beranda() {
                 }}
               >
                 <span>15 Oktober 2024</span>
-                <img
-                  src="assets/favorite.svg"
-                  alt="Favorit"
-                  onClick={(event) =>
-                    script.toggleFavorite(event, event.target)
-                  }
-                />
                 <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
                   <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
                     <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
@@ -242,13 +235,6 @@ function beranda() {
                 }}
               >
                 <span>18 Oktober 2024</span>
-                <img
-                  src="assets/favorite.svg"
-                  alt="Favorit"
-                  onClick={(event) =>
-                    script.toggleFavorite(event, event.target)
-                  }
-                />
                 <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
                   <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
                     <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
@@ -270,13 +256,6 @@ function beranda() {
                 }}
               >
                 <span>22 Oktober 2024</span>
-                <img
-                  src="assets/favorite.svg"
-                  alt="Favorit"
-                  onClick={(event) =>
-                    script.toggleFavorite(event, event.target)
-                  }
-                />
                 <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
                   <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
                     <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
