@@ -143,8 +143,8 @@ function beranda() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="panduanartikel1">
-                  Panduan dan Artikel
+                <a className="nav-link" href="panduan1">
+                  Panduan
                 </a>
               </li>
               <li className="nav-item">
@@ -185,7 +185,7 @@ function beranda() {
               Selamat datang di platform pengelolaan stok perikanan! Kami
               menghubungkan nelayan lokal dengan kemudahan dalam mengelola
               laporan, data stok, riwayat penangkapan, serta bergabung dalam
-              komunitas nelayan. Dapatkan akses ke artikel informatif, fitur
+              komunitas nelayan. Dapatkan akses ke panduan informatif, fitur
               pelacakan stok yang akurat, dan dukungan untuk pengelolaan
               perikanan berkelanjutan.
             </h3>
@@ -196,7 +196,7 @@ function beranda() {
         </div>
         <div className="wrapper-main-content-panduan-dan-artikel-secondary">
           <div className="wrapper-main-content-panduan-dan-artikel-secondary-header">
-            Panduan dan Artikel
+            Panduan
           </div>
           <div className="wrapper-main-content-panduan-dan-artikel-secondary-content">
             <div
@@ -206,7 +206,7 @@ function beranda() {
               data-aos-once="true"
             >
               <a
-                href="panduanartikel1"
+                href="panduan1"
                 className="card-main-content-panduan-dan-artikel-secondary"
                 style={{
                   backgroundImage:
@@ -403,7 +403,7 @@ function beranda() {
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>
-                <a href="panduanartikel1">Artikel</a>
+                <a href="panduan1">Panduan</a>
               </div>
             </div>
           </div>
