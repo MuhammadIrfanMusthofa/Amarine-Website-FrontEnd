@@ -22,7 +22,7 @@ import Tambahhasiltangkapan from './pages/tambahhasiltangkapan'
 import Tentangkami1 from './pages/tentangkami1'
 import Tentangkami2 from './pages/tentangkami2'
 import Tentangkami3 from './pages/tentangkami3'
-import {HashRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -32,33 +32,33 @@ function App() {
   }, []);
   
   return (
-    <HashRouter>
-    <Routes>
-      <Route path='/' element={<Main/>}/>
-      <Route path='/beranda' element={<Beranda/>}/>
-      <Route path='/catatannelayan1' element={<Catatannelayan1/>}/>
-      <Route path='/catatanpengepul1' element={<Catatanpengepul1/>}/>
-      <Route path='/daftar' element={<Daftar/>}/>
-      <Route path='/detailhasiltangkapan' element={<Detailhasiltangkapan/>}/>
-      <Route path='/laporan' element={<Laporan/>}/>
-      <Route path='/laporandetail' element={<Laporandetail/>}/>
-      <Route path='/login' element={<Login/>}/>
-      <Route path='/lupakatasandi1' element={<Lupakatasandi1/>}/>
-      <Route path='/lupakatasandi2' element={<Lupakatasandi2/>}/>
-      <Route path='/lupakatasandi3' element={<Lupakatasandi3/>}/>
-      <Route path='/lupakatasandi4' element={<Lupakatasandi4/>}/>
-      <Route path='/nelayan' element={<Nelayan/>}/>
-      <Route path='/panduanartikel1' element={<Panduanartikel1/>}/>
-      <Route path='/panduanartikel2' element={<Panduanartikel2/>}/>
-      <Route path='/profil' element={<Profil/>}/>
-      <Route path='/stok' element={<Stok/>}/>
-      <Route path='/tambahhasiltangkapan' element={<Tambahhasiltangkapan/>}/>
-      <Route path='/tentangkami1' element={<Tentangkami1/>}/>
-      <Route path='/tentangkami2' element={<Tentangkami2/>}/>
-      <Route path='/tentangkami3' element={<Tentangkami3/>}/>
-    </Routes>
-    </HashRouter>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/beranda" element={<Beranda />} />
+        <Route path="/catatannelayan1" element={<Catatannelayan1 />} />
+        <Route path="/catatanpengepul1" element={<Catatanpengepul1 />} />
+        <Route path="/daftar" element={<Daftar />} />
+        <Route path="/detailhasiltangkapan" element={<Detailhasiltangkapan />} />
+        <Route path="/laporan" element={<Laporan />} />
+        <Route path="/laporandetail" element={<Laporandetail />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/lupakatasandi1" element={<Lupakatasandi1 />} />
+        <Route path="/lupakatasandi2" element={<Lupakatasandi2 />} />
+        <Route path="/lupakatasandi3" element={<Lupakatasandi3 />} />
+        <Route path="/lupakatasandi4" element={<Lupakatasandi4 />} />
+        <Route path="/nelayan" element={<Nelayan />} />
+        <Route path="/panduanartikel1" element={<Panduanartikel1 />} />
+        <Route path="/panduanartikel2" element={<Panduanartikel2 />} />
+        <Route path="/profil" element={<Profil />} />
+        <Route path="/stok" element={<Stok />} />
+        <Route path="/tambahhasiltangkapan" element={<Tambahhasiltangkapan />} />
+        <Route path="/tentangkami1" element={<Tentangkami1 />} />
+        <Route path="/tentangkami2" element={<Tentangkami2 />} />
+        <Route path="/tentangkami3" element={<Tentangkami3 />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App
