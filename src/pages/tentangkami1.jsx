@@ -34,7 +34,7 @@ function tentangkami1() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="tentangkami1"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -170,7 +170,7 @@ function tentangkami1() {
           data-aos-once="true"
         >
           <div className="main-content-tentang-kami-section-satu">
-            <a href="#">
+            <a href="tentangkami1">
               <div className="link-tentang-kami-nav-satu tentang-kami-nav-active">
                 Deskripsi Web <i className="fas fa-angle-right ms-auto"></i>
               </div>
@@ -228,7 +228,7 @@ function tentangkami1() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="tentangkami1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -241,7 +241,7 @@ function tentangkami1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tentangkami1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -254,7 +254,7 @@ function tentangkami1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tentangkami1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -267,7 +267,7 @@ function tentangkami1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tentangkami1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -280,7 +280,7 @@ function tentangkami1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tentangkami1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -297,7 +297,7 @@ function tentangkami1() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="tentangkami1">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

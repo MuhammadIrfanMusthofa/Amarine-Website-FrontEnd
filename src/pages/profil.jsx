@@ -34,7 +34,7 @@ function profil() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="profil"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -171,7 +171,7 @@ function profil() {
         >
           <div className="wrapper-avatar">
             <div className="profile-card">
-              <img src="assets/pak bahrul.png" alt="Profile Picture" />
+              <img src="assets/pak bahrul.png" alt="Profile" />
               <h2>Pak Bahrul</h2>
 
               <p>Nomor Telepon</p>
@@ -205,7 +205,7 @@ function profil() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="profil">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -218,7 +218,7 @@ function profil() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="profil">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -231,7 +231,7 @@ function profil() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="profil">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -244,7 +244,7 @@ function profil() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="profil">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -257,7 +257,7 @@ function profil() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="profil">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -274,7 +274,7 @@ function profil() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="profil">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

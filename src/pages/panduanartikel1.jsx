@@ -36,7 +36,7 @@ function panduanartikel1() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="panduanartikel1"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -260,7 +260,7 @@ function panduanartikel1() {
                   Muro, Tradisi Merawat Ekosistem Laut yang Berkelanjutan di
                   Lembata
                 </p>
-                <a href="#">Baca Selengkapnya</a>
+                <a href="panduanartikel1">Baca Selengkapnya</a>
               </div>
             </div>
             <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
@@ -296,7 +296,7 @@ function panduanartikel1() {
                   Tanpa BBM, Kapal Nelayan Inovasi Mahasiswa ITS Ramah
                   Lingkungan
                 </p>
-                <a href="#">Baca Selengkapnya</a>
+                <a href="panduanartikel1">Baca Selengkapnya</a>
               </div>
             </div>
             <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
@@ -334,7 +334,7 @@ function panduanartikel1() {
                   Muro, Tradisi Merawat Ekosistem Laut yang Berkelanjutan di
                   Lembata
                 </p>
-                <a href="#">Baca Selengkapnya</a>
+                <a href="panduanartikel1">Baca Selengkapnya</a>
               </div>
             </div>
             <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
@@ -372,7 +372,7 @@ function panduanartikel1() {
                   Muro, Tradisi Merawat Ekosistem Laut yang Berkelanjutan di
                   Lembata
                 </p>
-                <a href="#">Baca Selengkapnya</a>
+                <a href="panduanartikel1">Baca Selengkapnya</a>
               </div>
             </div>
             <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
@@ -410,7 +410,7 @@ function panduanartikel1() {
                   Inovasi dalam Penangkapan Ikan untuk Masa Depan yang
                   Berkelanjutan
                 </p>
-                <a href="#">Baca Selengkapnya</a>
+                <a href="panduanartikel1">Baca Selengkapnya</a>
               </div>
             </div>
           </div>
@@ -433,7 +433,7 @@ function panduanartikel1() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="panduanartikel1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -446,7 +446,7 @@ function panduanartikel1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="panduanartikel1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -459,7 +459,7 @@ function panduanartikel1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="panduanartikel1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -472,7 +472,7 @@ function panduanartikel1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="panduanartikel1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -485,7 +485,7 @@ function panduanartikel1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="panduanartikel1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -502,7 +502,7 @@ function panduanartikel1() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="panduanartikel1">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

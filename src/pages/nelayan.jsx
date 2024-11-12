@@ -34,7 +34,7 @@ function nelayan() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="/"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -204,7 +204,7 @@ function nelayan() {
                   </td>
 
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="/"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -215,7 +215,7 @@ function nelayan() {
                     </button>
                   </td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="/"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -226,7 +226,7 @@ function nelayan() {
                     </button>
                   </td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="/"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -237,7 +237,7 @@ function nelayan() {
                     </button>
                   </td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="/"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -248,7 +248,7 @@ function nelayan() {
                     </button>
                   </td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="/"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -259,7 +259,7 @@ function nelayan() {
                     </button>
                   </td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="/"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -270,7 +270,7 @@ function nelayan() {
                     </button>
                   </td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="/"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -281,7 +281,7 @@ function nelayan() {
                     </button>
                   </td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="/"> Detail </a>
                   </td>
                 </tr>
               </tbody>
@@ -303,7 +303,7 @@ function nelayan() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -316,7 +316,7 @@ function nelayan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -329,7 +329,7 @@ function nelayan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -342,7 +342,7 @@ function nelayan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -355,7 +355,7 @@ function nelayan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -372,7 +372,7 @@ function nelayan() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="/">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

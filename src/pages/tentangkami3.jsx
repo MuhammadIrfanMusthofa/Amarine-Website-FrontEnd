@@ -34,7 +34,7 @@ function tentangkami3() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="tentangkami3"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -186,20 +186,20 @@ function tentangkami3() {
                 <div class="nama-personal">Natasya Eka D.</div>
                 <div class="posisi-personal">Scrum Master</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   {" "}
                   Contact Natasya{" "}
                 </a>
@@ -213,20 +213,20 @@ function tentangkami3() {
                 <div class="nama-personal">Nabilah Sahda F.</div>
                 <div class="posisi-personal">Hipster</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   {" "}
                   Contact Sahda{" "}
                 </a>
@@ -240,20 +240,20 @@ function tentangkami3() {
                 <div class="nama-personal">Ida Nauli Br N.</div>
                 <div class="posisi-personal">Hipster</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   {" "}
                   Contact Ida{" "}
                 </a>
@@ -267,20 +267,20 @@ function tentangkami3() {
                 <div class="nama-personal">Hanik Dewi Jayanti</div>
                 <div class="posisi-personal">Hacker</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   {" "}
                   Contact Hanik{" "}
                 </a>
@@ -294,20 +294,20 @@ function tentangkami3() {
                 <div class="nama-personal">Michael Fernando K.L</div>
                 <div class="posisi-personal">Hacker</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   {" "}
                   Contact Michael{" "}
                 </a>
@@ -321,20 +321,20 @@ function tentangkami3() {
                 <div class="nama-personal">Rayhan Khalif Afzaal</div>
                 <div class="posisi-personal">Hacker</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   {" "}
                   Contact Rayhan{" "}
                 </a>
@@ -358,20 +358,20 @@ function tentangkami3() {
                 <div class="nama-personal">M. Irfan Musthofa</div>
                 <div class="posisi-personal">Project Manager</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   Contact Irfan
                 </a>
               </div>
@@ -384,20 +384,20 @@ function tentangkami3() {
                 <div class="nama-personal">Shakila Aswaliyah</div>
                 <div class="posisi-personal">Scrum Master</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   Contact Shakila
                 </a>
               </div>
@@ -410,20 +410,20 @@ function tentangkami3() {
                 <div class="nama-personal">Khairunnisa</div>
                 <div class="posisi-personal">Hipster</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   {" "}
                   Contact Khairunnisa
                 </a>
@@ -437,20 +437,20 @@ function tentangkami3() {
                 <div class="nama-personal">Rafdi Innaya</div>
                 <div class="posisi-personal">Hipster</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   {" "}
                   Contact Innaya{" "}
                 </a>
@@ -464,20 +464,20 @@ function tentangkami3() {
                 <div class="nama-personal">Dhani Dzulkarnain</div>
                 <div class="posisi-personal">Hacker</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   Contact Dhani
                 </a>
               </div>
@@ -490,20 +490,20 @@ function tentangkami3() {
                 <div class="nama-personal">Syalzi Astaudi</div>
                 <div class="posisi-personal">Hacker</div>
                 <div class="media-sosial-personal">
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/linkedin.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/github.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/instagram.svg" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="tentangkami3">
                     <img src="assets/facebbok 2.svg" alt="" />
                   </a>
                 </div>
-                <a href="#" class="contact-button">
+                <a href="tentangkami3" class="contact-button">
                   {" "}
                   Contact Syalzi
                 </a>
@@ -526,7 +526,7 @@ function tentangkami3() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="tentangkami3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -539,7 +539,7 @@ function tentangkami3() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tentangkami3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -552,7 +552,7 @@ function tentangkami3() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tentangkami3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -565,7 +565,7 @@ function tentangkami3() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tentangkami3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -578,7 +578,7 @@ function tentangkami3() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tentangkami3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -595,7 +595,7 @@ function tentangkami3() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="tentangkami3">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

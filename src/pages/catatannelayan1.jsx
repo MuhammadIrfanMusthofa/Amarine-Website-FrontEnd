@@ -34,7 +34,7 @@ function catatannelayan1() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="catatannelayan1"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -186,7 +186,7 @@ function catatannelayan1() {
               <div className="nama-tangkapan">Kepiting</div>
             </div>
           </a>
-          <a href="#">
+          <a href="catatannelayan1">
             <div className="card-catatan-hasil-tangkapan-nelayan">
               <div className="container-image-catatan">
                 <img src="assets/kepiting2.jpg" alt="Gambar" />
@@ -196,7 +196,7 @@ function catatannelayan1() {
               <div className="nama-tangkapan">Kepiting</div>
             </div>
           </a>
-          <a href="#">
+          <a href="catatannelayan1">
             <div className="card-catatan-hasil-tangkapan-nelayan">
               <div className="container-image-catatan">
                 <img src="assets/ikan kerapu.jpg" alt="Gambar" />
@@ -206,7 +206,7 @@ function catatannelayan1() {
               <div className="nama-tangkapan">Ikan Kerapu</div>
             </div>
           </a>
-          <a href="#">
+          <a href="catatannelayan1">
             <div className="card-catatan-hasil-tangkapan-nelayan">
               <div className="container-image-catatan">
                 <img src="assets/udang.jpg" alt="Gambar" />
@@ -216,7 +216,7 @@ function catatannelayan1() {
               <div className="nama-tangkapan">Udang</div>
             </div>
           </a>
-          <a href="#">
+          <a href="catatannelayan1">
             <div className="card-catatan-hasil-tangkapan-nelayan">
               <div className="container-image-catatan">
                 <img src="assets/lele.jpg" alt="Gambar" />
@@ -226,7 +226,7 @@ function catatannelayan1() {
               <div className="nama-tangkapan">Ikan Lele</div>
             </div>
           </a>
-          <a href="#">
+          <a href="catatannelayan1">
             <div className="card-catatan-hasil-tangkapan-nelayan">
               <div className="container-image-catatan">
                 <img src="assets/ikan dori.jpg" alt="Gambar" />
@@ -236,7 +236,7 @@ function catatannelayan1() {
               <div className="nama-tangkapan">Ikan Dori</div>
             </div>
           </a>
-          <a href="#">
+          <a href="catatannelayan1">
             <div className="card-catatan-hasil-tangkapan-nelayan">
               <div className="container-image-catatan">
                 <img src="assets/ikan kembung.jpg" alt="Gambar" />
@@ -246,7 +246,7 @@ function catatannelayan1() {
               <div className="nama-tangkapan">Ikan Kembung</div>
             </div>
           </a>
-          <a href="#">
+          <a href="catatannelayan1">
             <div className="card-catatan-hasil-tangkapan-nelayan">
               <div className="container-image-catatan">
                 <img src="assets/ikan nila.jpg" alt="Gambar" />
@@ -274,7 +274,7 @@ function catatannelayan1() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="catatannelayan1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -287,7 +287,7 @@ function catatannelayan1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="catatannelayan1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -300,7 +300,7 @@ function catatannelayan1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="catatannelayan1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -313,7 +313,7 @@ function catatannelayan1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="catatannelayan1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -326,7 +326,7 @@ function catatannelayan1() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="catatannelayan1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -343,7 +343,7 @@ function catatannelayan1() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="catatannelayan1">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

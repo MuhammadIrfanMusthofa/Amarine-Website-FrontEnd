@@ -34,7 +34,7 @@ function stok() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="stok"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -172,7 +172,7 @@ function stok() {
           <div className="main-title">
             <p>Detail Stok</p>
             <div className="date-title ms-auto">
-              <button type="button" href="#">
+              <button type="button" href="stok">
                 <p>
                   14 Oktober 2024
                   <svg
@@ -287,7 +287,7 @@ function stok() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="stok">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -300,7 +300,7 @@ function stok() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="stok">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -313,7 +313,7 @@ function stok() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="stok">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -326,7 +326,7 @@ function stok() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="stok">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -339,7 +339,7 @@ function stok() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="stok">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -356,7 +356,7 @@ function stok() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="stok">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

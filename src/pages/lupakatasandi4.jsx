@@ -142,7 +142,7 @@ function lupakatasandi4() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="lupakatasandi4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -155,7 +155,7 @@ function lupakatasandi4() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="lupakatasandi4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -168,7 +168,7 @@ function lupakatasandi4() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="lupakatasandi4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -181,7 +181,7 @@ function lupakatasandi4() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="lupakatasandi4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -194,7 +194,7 @@ function lupakatasandi4() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="lupakatasandi4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -211,7 +211,7 @@ function lupakatasandi4() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="lupakatasandi4">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="login">Beranda</a>

@@ -34,7 +34,7 @@ function laporan() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="laporan"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -172,7 +172,7 @@ function laporan() {
           <div className="main-title">
             <p>Laporan Hasil Nelayan</p>
             <div className="date-title ms-auto">
-              <button type="button" href="#">
+              <button type="button" href="laporan">
                 <p>
                   14 Oktober 2024
                   <svg
@@ -209,7 +209,7 @@ function laporan() {
               <p className="ms-auto">429 Kg</p>
             </div>
             <div className="secondary-wrapper-jual">
-              <a href="#"> Jual Hasil Tangkapan </a>
+              <a href="laporan"> Jual Hasil Tangkapan </a>
             </div>
           </div>
           <div className="third-content">
@@ -239,7 +239,7 @@ function laporan() {
                   </td>
                   <td>44</td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="laporan"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -249,7 +249,7 @@ function laporan() {
                   </td>
                   <td>38</td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="laporan"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -259,7 +259,7 @@ function laporan() {
                   </td>
                   <td>67</td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="laporan"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -269,7 +269,7 @@ function laporan() {
                   </td>
                   <td>41</td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="laporan"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -279,7 +279,7 @@ function laporan() {
                   </td>
                   <td>59</td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="laporan"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -289,7 +289,7 @@ function laporan() {
                   </td>
                   <td>32</td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="laporan"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -299,7 +299,7 @@ function laporan() {
                   </td>
                   <td>45</td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="laporan"> Detail </a>
                   </td>
                 </tr>
                 <tr>
@@ -309,7 +309,7 @@ function laporan() {
                   </td>
                   <td>42</td>
                   <td>
-                    <a href="#"> Detail </a>
+                    <a href="laporan"> Detail </a>
                   </td>
                 </tr>
               </tbody>
@@ -331,7 +331,7 @@ function laporan() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="laporan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -344,7 +344,7 @@ function laporan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="laporan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -357,7 +357,7 @@ function laporan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="laporan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -370,7 +370,7 @@ function laporan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="laporan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -383,7 +383,7 @@ function laporan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="laporan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -400,7 +400,7 @@ function laporan() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="laporan">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

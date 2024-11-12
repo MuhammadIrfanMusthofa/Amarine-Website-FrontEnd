@@ -34,7 +34,7 @@ function laporandetail() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="laporandetail"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -169,7 +169,7 @@ function laporandetail() {
         <div className="main-title">
           <p>Pak Bahrul</p>
           <div className="date-title ms-auto">
-            <button type="button" href="#">
+            <button type="button" href="laporandetail">
               <p>
                 14 Oktober 2024
                 <svg
@@ -270,7 +270,7 @@ function laporandetail() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="laporandetail">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -283,7 +283,7 @@ function laporandetail() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="laporandetail">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -296,7 +296,7 @@ function laporandetail() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="laporandetail">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -309,7 +309,7 @@ function laporandetail() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="laporandetail">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -322,7 +322,7 @@ function laporandetail() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="laporandetail">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -339,7 +339,7 @@ function laporandetail() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="laporandetail">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

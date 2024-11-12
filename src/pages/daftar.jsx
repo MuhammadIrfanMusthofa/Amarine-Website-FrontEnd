@@ -123,13 +123,13 @@ function daftar() {
             </form>
             <div className="divider">atau</div>
             <div className="media-sosial-login">
-              <a href="#">
+              <a href="daftar">
                 <img src="assets/facebook.svg" alt="Facebook" />
               </a>
-              <a href="#">
+              <a href="daftar">
                 <img src="assets/apple.svg" alt="Apple" />
               </a>
-              <a href="#">
+              <a href="daftar">
                 <img src="assets/google.svg" alt="Google" />
               </a>
             </div>
@@ -171,7 +171,7 @@ function daftar() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="daftar">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -184,7 +184,7 @@ function daftar() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="daftar">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -197,7 +197,7 @@ function daftar() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="daftar">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -210,7 +210,7 @@ function daftar() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="daftar">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -223,7 +223,7 @@ function daftar() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="daftar">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -240,7 +240,7 @@ function daftar() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="daftar">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="login">Beranda</a>

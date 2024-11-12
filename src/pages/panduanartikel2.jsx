@@ -34,7 +34,7 @@ function panduanartikel2() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="panduanartikel2"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -221,7 +221,7 @@ function panduanartikel2() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="panduanartikel2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -234,7 +234,7 @@ function panduanartikel2() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="panduanartikel2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -247,7 +247,7 @@ function panduanartikel2() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="panduanartikel2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -260,7 +260,7 @@ function panduanartikel2() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="panduanartikel2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -273,7 +273,7 @@ function panduanartikel2() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="panduanartikel2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -290,7 +290,7 @@ function panduanartikel2() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="panduanartikel2">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>

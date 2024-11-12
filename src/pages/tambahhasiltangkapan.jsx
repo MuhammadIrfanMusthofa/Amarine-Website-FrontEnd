@@ -36,7 +36,7 @@ function tambahhasiltangkapan() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="tambahhasiltangkapan"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -417,7 +417,7 @@ function tambahhasiltangkapan() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="tambahhasiltangkapan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -430,7 +430,7 @@ function tambahhasiltangkapan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tambahhasiltangkapan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -443,7 +443,7 @@ function tambahhasiltangkapan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tambahhasiltangkapan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -456,7 +456,7 @@ function tambahhasiltangkapan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tambahhasiltangkapan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -469,7 +469,7 @@ function tambahhasiltangkapan() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="tambahhasiltangkapan">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -486,7 +486,7 @@ function tambahhasiltangkapan() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="tambahhasiltangkapan">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>
