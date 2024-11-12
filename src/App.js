@@ -22,7 +22,7 @@ import Tambahhasiltangkapan from './pages/tambahhasiltangkapan'
 import Tentangkami1 from './pages/tentangkami1'
 import Tentangkami2 from './pages/tentangkami2'
 import Tentangkami3 from './pages/tentangkami3'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -32,7 +32,7 @@ function App() {
   }, []);
   
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path='/' element={<Main/>}/>
       <Route path='/beranda' element={<Beranda/>}/>
@@ -57,7 +57,7 @@ function App() {
       <Route path='/tentangkami2' element={<Tentangkami2/>}/>
       <Route path='/tentangkami3' element={<Tentangkami3/>}/>
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
