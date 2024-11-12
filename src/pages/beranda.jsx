@@ -36,7 +36,7 @@ function beranda() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="#"
+                  href="/"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -234,7 +234,7 @@ function beranda() {
                 </div>
               </a>
               <a
-                href="#"
+                href="/#"
                 className="card-main-content-panduan-dan-artikel-secondary"
                 style={{
                   backgroundImage:
@@ -262,7 +262,7 @@ function beranda() {
                 </div>
               </a>
               <a
-                href="#"
+                href="/#"
                 className="card-main-content-panduan-dan-artikel-secondary"
                 style={{
                   backgroundImage:
@@ -330,7 +330,7 @@ function beranda() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="#">
+                <a href="/#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -343,7 +343,7 @@ function beranda() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -356,7 +356,7 @@ function beranda() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="/#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -369,7 +369,7 @@ function beranda() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="/#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -382,7 +382,7 @@ function beranda() {
                     />
                   </svg>
                 </a>
-                <a href="#">
+                <a href="/#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -399,7 +399,7 @@ function beranda() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="#">Selengkapnya</a>
+                <a href="/#">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>
