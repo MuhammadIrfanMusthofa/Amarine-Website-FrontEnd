@@ -23,11 +23,7 @@ function main() {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto align-items-center">
               <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="login"
-                >
+                <a className="nav-link active" aria-current="page" href="login">
                   MASUK
                 </a>
               </li>
@@ -73,7 +69,7 @@ function main() {
                 href="login"
                 className="card-main-content-panduan-dan-artikel-secondary"
                 style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/artikel 1.png')`,
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('assets/artikel 1.png')`,
                 }}
               >
                 <span>15 Oktober 2024</span>
