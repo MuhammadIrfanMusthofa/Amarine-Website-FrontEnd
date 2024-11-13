@@ -143,8 +143,8 @@ function tentangkami2() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="panduanartikel1">
-                  Panduan dan Artikel
+                <a className="nav-link" href="panduan1">
+                  Panduan
                 </a>
               </li>
               <li className="nav-item">
@@ -235,8 +235,7 @@ function tentangkami2() {
                 </div>
               </button>
               <div className="isi-extend-bar-tiga isi-extend">
-              Website Amarine menyediakan berbagai fitur seperti: artikel dan
-              panduan, kelola penjualan, laporan, nelayan.
+              Website Amarine menyediakan berbagai fitur seperti: Panduan, kelola penjualan, laporan, nelayan.
               </div>
 
               <button
@@ -359,7 +358,7 @@ function tentangkami2() {
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>
-                <a href="panduanartikel1">Artikel</a>
+                <a href="panduan1">Panduan</a>
               </div>
             </div>
           </div>

@@ -244,7 +244,7 @@ function daftar() {
               </div>
               <div className="extend-selengkapnya">
                 <a href="login">Beranda</a>
-                <a href="login">Artikel</a>
+                <a href="login">Panduan</a>
               </div>
             </div>
           </div>

@@ -56,24 +56,6 @@ export function tampilkanPopupBerhasilLogin(event) {
   });
 }
 
-export function toggleFavorite(event, element) {
-  event.preventDefault();
-  if (element.getAttribute("src") === "assets/favorite.svg") {
-    element.setAttribute("src", "assets/favorite-active.svg");
-  } else {
-    element.setAttribute("src", "assets/favorite.svg");
-  }
-}
-
-export function toggleFavorite2(event, element) {
-  event.preventDefault();
-  if (element.getAttribute("src") === "assets/favorite2.svg") {
-    element.setAttribute("src", "assets/favorite-active.svg");
-  } else {
-    element.setAttribute("src", "assets/favorite2.svg");
-  }
-}
-
 export function toggleContent(buttonClass) {
   const container = document.querySelector(
     ".main-content-tentang-kami-section-kedua-isi"

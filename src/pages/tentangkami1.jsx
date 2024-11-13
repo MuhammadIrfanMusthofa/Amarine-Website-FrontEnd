@@ -141,8 +141,8 @@ function tentangkami1() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="panduanartikel1">
-                  Panduan dan Artikel
+                <a className="nav-link" href="panduan1">
+                  Panduan
                 </a>
               </li>
               <li className="nav-item">
@@ -196,7 +196,7 @@ function tentangkami1() {
               <p className="sub-title-tentang-kami">Deskripsi</p>
               <p className="isi-sub-title-tentang-kami">
                 Amarine adalah aplikasi untuk membantu nelayan mengelola hasil
-                tangkapan, melihat panduan atau artikel terkait perikanan dan
+                tangkapan, melihat panduan terkait perikanan dan
                 berinteraksi di komunitas.
               </p>
               <p className="sub-title-tentang-kami">Tujuan</p>
@@ -301,7 +301,7 @@ function tentangkami1() {
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>
-                <a href="panduanartikel1">Artikel</a>
+                <a href="panduan1">Panduan</a>
               </div>
             </div>
           </div>

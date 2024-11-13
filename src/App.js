@@ -14,8 +14,8 @@ import Lupakatasandi3 from './pages/lupakatasandi3'
 import Lupakatasandi4 from './pages/lupakatasandi4'
 import Main from './pages/main'
 import Nelayan from './pages/nelayan'
-import Panduanartikel1 from './pages/panduanartikel1'
-import Panduanartikel2 from './pages/panduanartikel2'
+import Panduan1 from './pages/panduan1'
+import Panduan2 from './pages/panduan2'
 import Profil from './pages/profil'
 import Stok from './pages/stok'
 import Tambahhasiltangkapan from './pages/tambahhasiltangkapan'
@@ -48,8 +48,8 @@ function App() {
         <Route path="/lupakatasandi3" element={<Lupakatasandi3 />} />
         <Route path="/lupakatasandi4" element={<Lupakatasandi4 />} />
         <Route path="/nelayan" element={<Nelayan />} />
-        <Route path="/panduanartikel1" element={<Panduanartikel1 />} />
-        <Route path="/panduanartikel2" element={<Panduanartikel2 />} />
+        <Route path="/panduan1" element={<Panduan1 />} />
+        <Route path="/panduan2" element={<Panduan2 />} />
         <Route path="/profil" element={<Profil />} />
         <Route path="/stok" element={<Stok />} />
         <Route path="/tambahhasiltangkapan" element={<Tambahhasiltangkapan />} />

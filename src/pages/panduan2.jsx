@@ -1,8 +1,6 @@
 import React from "react";
 
-import * as script from "../script";
-
-function panduanartikel1() {
+function panduan2() {
   return (
     <div>
       {/* Header */}
@@ -36,7 +34,7 @@ function panduanartikel1() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
-                  href="panduanartikel1"
+                  href="panduan2"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -143,8 +141,8 @@ function panduanartikel1() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="panduanartikel1">
-                  Panduan dan Artikel
+                <a className="nav-link" href="panduan1">
+                  Panduan
                 </a>
               </li>
               <li className="nav-item">
@@ -164,261 +162,44 @@ function panduanartikel1() {
       {/* Header End */}
 
       {/* Main Content */}
-      <div className="main-content">
-        <div
-          className="main-search"
-          data-aos="fade-down"
-          data-aos-duration="900"
-          data-aos-once="true"
-        >
-          <input
-            type="text"
-            placeholder="Apa yang ingin kamu cari?"
-            style={{ marginTop: "30px" }}
-          />
-          <button type="button">
-            <img src="assets/Modify Button.png" alt="Modify" />
-          </button>
-        </div>
-        <div
-          className="wrapper-main-content-panduan-dan-artikel-secondary wrapper-main-content-panduan-dan-artikel wrapper-main-content-panduan-dan-artikel-2"
-          data-aos="fade-down"
-          data-aos-duration="900"
-          data-aos-once="true"
-        >
-          <div className="wrapper-main-content-panduan-dan-artikel-secondary-content-card wrapper-main-content-panduan-dan-artikel-secondary-content-card-2">
-            <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
-              <div
-                className="card-main-content-panduan-dan-artikel-secondary"
-                style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/artikel 1.png')`,
-                }}
-              >
-                <span>15 Oktober 2024</span>
-                <img
-                  src="assets/favorite.svg"
-                  alt="Favorit"
-                  onClick={(event) =>
-                    script.toggleFavorite(event, event.target)
-                  }
-                />
-                <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
-                  <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Inovasi
-                    </div>
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Tangkapan
-                    </div>
-                  </div>
-                  <p>Inovasi dalam Penangkapan</p>
-                </div>
-              </div>
-              <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-content">
-                <p className="deskripsi-content-sumber">
-                  Sumber : Amarine Group
-                </p>
-                <p className="deskripsi-content-deskripsi">
-                  Inovasi dalam Penangkapan Ikan untuk Masa Depan yang
-                  Berkelanjutan
-                </p>
-                <a href="panduanartikel2">Baca Selengkapnya</a>
-              </div>
-            </div>
-            <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
-              <div
-                className="card-main-content-panduan-dan-artikel-secondary"
-                style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/artikel 2.png')`,
-                }}
-              >
-                <span>18 Oktober 2024</span>
-                <img
-                  src="assets/favorite.svg"
-                  alt="Favorit"
-                  onClick={(event) =>
-                    script.toggleFavorite(event, event.target)
-                  }
-                />
-                <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
-                  <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Tradisi
-                    </div>
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Nelayan
-                    </div>
-                  </div>
-                  <p>Tradisi & Modernisasi Nelayan</p>
-                </div>
-              </div>
-              <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-content">
-                <p className="deskripsi-content-sumber">
-                  Sumber : Kementrian Kelautan & Perikanan
-                </p>
-                <p className="deskripsi-content-deskripsi">
-                  Muro, Tradisi Merawat Ekosistem Laut yang Berkelanjutan di
-                  Lembata
-                </p>
-                <a href="panduanartikel1">Baca Selengkapnya</a>
-              </div>
-            </div>
-            <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
-              <div
-                className="card-main-content-panduan-dan-artikel-secondary"
-                style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/artikel 3.png')`,
-                }}
-              >
-                <span>22 Oktober 2024</span>
-                <img
-                  src="assets/favorite.svg"
-                  alt="Favorit"
-                  onClick={(event) =>
-                    script.toggleFavorite(event, event.target)
-                  }
-                />
-                <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
-                  <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Inovasi
-                    </div>
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Nelayan
-                    </div>
-                  </div>
-                  <p>Inovasi untuk Nelayan</p>
-                </div>
-              </div>
-              <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-content">
-                <p className="deskripsi-content-sumber">Sumber : Kompas.com</p>
-                <p className="deskripsi-content-deskripsi">
-                  Tanpa BBM, Kapal Nelayan Inovasi Mahasiswa ITS Ramah
-                  Lingkungan
-                </p>
-                <a href="panduanartikel1">Baca Selengkapnya</a>
-              </div>
-            </div>
-            <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
-              <div
-                className="card-main-content-panduan-dan-artikel-secondary"
-                style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/artikel 4.jpg')`,
-                }}
-              >
-                <span>02 Oktober 2024</span>
-                <img
-                  src="assets/favorite.svg"
-                  alt="Favorit"
-                  onClick={(event) =>
-                    script.toggleFavorite(event, event.target)
-                  }
-                />
-                <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
-                  <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Tradisi
-                    </div>
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Nelayan
-                    </div>
-                  </div>
-                  <p>Tradisi & Modernisasi Nelayan</p>
-                </div>
-              </div>
-              <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-content">
-                <p className="deskripsi-content-sumber">
-                  Sumber : Kementrian Kelautan & Perikanan
-                </p>
-                <p className="deskripsi-content-deskripsi">
-                  Muro, Tradisi Merawat Ekosistem Laut yang Berkelanjutan di
-                  Lembata
-                </p>
-                <a href="panduanartikel1">Baca Selengkapnya</a>
-              </div>
-            </div>
-            <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
-              <div
-                className="card-main-content-panduan-dan-artikel-secondary"
-                style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/artikel 5.jpg')`,
-                }}
-              >
-                <span>06 Oktober 2024</span>
-                <img
-                  src="assets/favorite.svg"
-                  alt="Favorit"
-                  onClick={(event) =>
-                    script.toggleFavorite(event, event.target)
-                  }
-                />
-                <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
-                  <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Inovasi
-                    </div>
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Nelayan
-                    </div>
-                  </div>
-                  <p>Inovasi dalam Penangkapan</p>
-                </div>
-              </div>
-              <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-content">
-                <p className="deskripsi-content-sumber">
-                  Sumber : Kementrian Kelautan & Perikanan
-                </p>
-                <p className="deskripsi-content-deskripsi">
-                  Muro, Tradisi Merawat Ekosistem Laut yang Berkelanjutan di
-                  Lembata
-                </p>
-                <a href="panduanartikel1">Baca Selengkapnya</a>
-              </div>
-            </div>
-            <div className="wrapper-card-main-content-panduan-dan-artikel-secondary">
-              <div
-                className="card-main-content-panduan-dan-artikel-secondary"
-                style={{
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/artikel 6.jpg')`,
-                }}
-              >
-                <span>02 Oktober 2024</span>
-                <img
-                  src="assets/favorite.svg"
-                  alt="Favorit"
-                  onClick={(event) =>
-                    script.toggleFavorite(event, event.target)
-                  }
-                />
-                <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
-                  <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Inovasi
-                    </div>
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Nelayan
-                    </div>
-                  </div>
-                  <p>Inovasi dalam Penangkapan</p>
-                </div>
-              </div>
-              <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-content">
-                <p className="deskripsi-content-sumber">
-                  Sumber : Kementrian Kelautan & Perikanan
-                </p>
-                <p className="deskripsi-content-deskripsi">
-                  Inovasi dalam Penangkapan Ikan untuk Masa Depan yang
-                  Berkelanjutan
-                </p>
-                <a href="panduanartikel1">Baca Selengkapnya</a>
-              </div>
-            </div>
-          </div>
-          <button className="selengkapnya-panduan-dan-artikel">
-            Selengkapnya
-          </button>
-        </div>
+      <div className="main-content wrapper-main-content-panduan-artikel-isi">
+      <header className="judul-panduan-artikel" data-aos="fade-down"
+      data-aos-duration="900"
+      data-aos-once="true">
+        Inovasi dalam Penangkapan Ikan untuk Masa Depan yang Berkelanjutan
+      </header>
+      <div className="sumber-panduan-artikel" data-aos="fade-down"
+      data-aos-duration="900"
+      data-aos-once="true">Sumber: Amarine Group</div>
+      <div className="tanggal-panduan-artikel" data-aos="fade-down"
+      data-aos-duration="900"
+      data-aos-once="true">15 Oktober 2024</div>
+      <div className="gambar-panduan-artikel" data-aos="fade-down"
+      data-aos-duration="900"
+      data-aos-once="true">
+        <img src="assets/artikel 1.png" alt="" />
       </div>
+      <p className="deskripsi-panduan-artikel" data-aos="fade-down"
+      data-aos-duration="900"
+      data-aos-once="true">
+        Inovasi dalam penangkapan ikan yang berkelanjutan menjadi kunci untuk melindungi ekosistem laut dan menjamin ketersediaan sumber daya ikan di masa depan. Dengan menggunakan teknologi modern seperti smart fishing gear dan sistem pelacakan berbasis satelit, nelayan dapat menangkap ikan dengan lebih selektif. Hal ini membantu mengurangi tangkapan sampingan yang tidak diinginkan dan meminimalkan kerusakan habitat laut, sehingga keseimbangan ekosistem tetap terjaga.
+      </p>
+      <p className="deskripsi-panduan-artikel" data-aos="fade-down"
+      data-aos-duration="900"
+      data-aos-once="true">
+        Metode penangkapan berbasis sensor menjadi solusi canggih lainnya yang memungkinkan pendeteksian keberadaan ikan sesuai dengan jenis dan ukurannya. Teknologi ini membantu mencegah penangkapan ikan yang masih kecil atau spesies yang sedang terancam. Dengan begitu, populasi ikan yang lebih rentan dapat terus berkembang biak, menjaga keberlanjutan populasi di perairan.
+      </p>
+      <p className="deskripsi-panduan-artikel"data-aos="fade-down"
+      data-aos-duration="900"
+      data-aos-once="true" >
+        Selain itu, penggunaan alat tangkap yang ramah lingkungan, seperti jaring yang dapat terurai secara alami dan perangkat penangkap ikan selektif, memainkan peran penting dalam mengurangi dampak negatif terhadap biota laut. Alat-alat ini dirancang untuk memastikan bahwa hanya ikan target yang tertangkap, sementara spesies lain dapat tetap hidup dan bebas di lautan, mendukung kelestarian ekosistem yang lebih luas.
+      </p>
+      <p className="deskripsi-panduan-artikel" data-aos="fade-down"
+      data-aos-duration="900"
+      data-aos-once="true">
+        Inovasi dalam akuakultur juga menjadi alternatif yang menjanjikan untuk memenuhi permintaan pasar tanpa mengeksploitasi lautan secara berlebihan. Dengan memadukan teknologi modern dan praktik berkelanjutan, sektor perikanan dapat terus berkembang tanpa mengorbankan keseimbangan ekosistem laut. Hal ini tidak hanya memastikan kelangsungan pasokan pangan laut bagi generasi sekarang, tetapi juga bagi generasi mendatang.
+      </p>
+    </div>
       {/* Main Content End */}
 
       {/* Footer */}
@@ -433,7 +214,7 @@ function panduanartikel1() {
                 <p>Kontak Kami</p>
               </div>
               <div className="media-sosial">
-                <a href="panduanartikel1">
+                <a href="panduan2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -446,7 +227,7 @@ function panduanartikel1() {
                     />
                   </svg>
                 </a>
-                <a href="panduanartikel1">
+                <a href="panduan2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -459,7 +240,7 @@ function panduanartikel1() {
                     />
                   </svg>
                 </a>
-                <a href="panduanartikel1">
+                <a href="panduan2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -472,7 +253,7 @@ function panduanartikel1() {
                     />
                   </svg>
                 </a>
-                <a href="panduanartikel1">
+                <a href="panduan2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -485,7 +266,7 @@ function panduanartikel1() {
                     />
                   </svg>
                 </a>
-                <a href="panduanartikel1">
+                <a href="panduan2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1.65em"
@@ -502,11 +283,11 @@ function panduanartikel1() {
             </div>
             <div className="wrapper-kanan ms-auto">
               <div className="selengkapnya">
-                <a href="panduanartikel1">Selengkapnya</a>
+                <a href="panduan2">Selengkapnya</a>
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>
-                <a href="panduanartikel1">Artikel</a>
+                <a href="panduan1">Panduan</a>
               </div>
             </div>
           </div>
@@ -538,4 +319,4 @@ function panduanartikel1() {
   );
 }
 
-export default panduanartikel1;
+export default panduan2;

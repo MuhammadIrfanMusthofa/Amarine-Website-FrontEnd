@@ -479,6 +479,7 @@ select {
   width: 100%;
   background-color: #ffb16d;
   padding: 30px 20px;
+  gap: 3%;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;

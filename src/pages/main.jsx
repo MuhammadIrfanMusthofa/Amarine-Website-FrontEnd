@@ -45,7 +45,7 @@ function main() {
               Selamat datang di platform pengelolaan stok perikanan! Kami
               menghubungkan nelayan lokal dengan kemudahan dalam mengelola
               laporan, data stok, riwayat penangkapan, serta bergabung dalam
-              komunitas nelayan. Dapatkan akses ke artikel informatif, fitur
+              komunitas nelayan. Dapatkan akses ke panduan informatif, fitur
               pelacakan stok yang akurat, dan dukungan untuk pengelolaan
               perikanan berkelanjutan.
             </h3>
@@ -56,7 +56,7 @@ function main() {
         </div>
         <div className="wrapper-main-content-panduan-dan-artikel-secondary">
           <div className="wrapper-main-content-panduan-dan-artikel-secondary-header">
-            Panduan dan Artikel
+            Panduan 
           </div>
           <div className="wrapper-main-content-panduan-dan-artikel-secondary-content">
             <div
@@ -216,7 +216,7 @@ function main() {
               </div>
               <div className="extend-selengkapnya">
                 <a href="login">Beranda</a>
-                <a href="login">Artikel</a>
+                <a href="login">Panduan</a>
               </div>
             </div>
           </div>
