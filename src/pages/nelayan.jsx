@@ -1,5 +1,7 @@
 import React from "react";
 
+import * as script from "../script";
+
 function nelayan() {
   return (
     <div>
@@ -141,8 +143,8 @@ function nelayan() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="panduanartikel1">
-                  Panduan dan Artikel
+                <a className="nav-link" href="panduan1">
+                  Panduan
                 </a>
               </li>
               <li className="nav-item">
@@ -184,7 +186,7 @@ function nelayan() {
                 <tr>
                   <td>
                     <button
-                      onclick="tampilkanPopupNelayan()"
+                      onClick={() => script.tampilkanPopupNelayan()}
                       className="link-avatar"
                     >
                       <img src="assets/pak bahrul.png" alt="Gambar Profil" />{" "}
@@ -376,7 +378,7 @@ function nelayan() {
               </div>
               <div className="extend-selengkapnya">
                 <a href="beranda">Beranda</a>
-                <a href="panduanartikel1">Artikel</a>
+                <a href="panduan1">Panduan</a>
               </div>
             </div>
           </div>
@@ -404,6 +406,27 @@ function nelayan() {
         </div>
       </footer>
       {/* Footer End */}
+
+      {/* Popup */}
+    <div className="wrapper-avatar wrapper-avatar-nelayan">
+      <div className="profile-card">
+        <img src="assets/pak bahrul.png" alt="Profile" />
+        <h2>Pak Bahrul</h2>
+
+        <p>Nomor Telepon</p>
+        <div className="info-box">081389083349</div>
+
+        <p>Email</p>
+        <div className="info-box">bahrulkece@gmail.com</div>
+
+        <p>Tanggal Lahir</p>
+        <div className="info-box">21 Oktober 1984</div>
+
+        <p>Alamat</p>
+        <div className="info-box">Batu Merah</div>
+      </div>
+    </div>
+      {/* Popup End */}
     </div>
   );
 }
