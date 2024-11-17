@@ -85,6 +85,24 @@ function pengaturanlaporkanmasalah() {
       </div>
       {/* Main Content End */}
 
+      {/* Popup Berhasil Laporkan */}
+      <div id="popup-berhasil-simpan" className="popup-hidden-hapus">
+        <div className="popup-box">
+          <div className="popup-mini-icon"></div>
+          <div className="popup-mini-icon"></div>
+          <div className="popup-mini-icon"></div>
+          <div className="popup-mini-icon"></div>
+          <div className="popup-icon">
+            <img src="assets/accept.svg" alt="Berhasil" />
+          </div>
+          <p className="popup-message">Berhasil!</p>
+          <p className="popup-message popup-message-child">
+            Masalah berhasil dilaporkan, kami akan merespons anda melalui Email
+          </p>
+        </div>
+      </div>
+      {/* Popup End */}
+
       {/* Popup Logout*/}
       <div id="popup-hapus" className="popup-hidden-hapus">
         <div className="popup-box">
