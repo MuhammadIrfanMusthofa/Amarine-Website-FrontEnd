@@ -16,7 +16,10 @@ import Main from './pages/main'
 import Nelayan from './pages/nelayan'
 import Panduan1 from './pages/panduan1'
 import Panduan2 from './pages/panduan2'
-import Profil from './pages/profil'
+import Pengaturanlaporkanmasalah from './pages/pengaturanlaporkanmasalah'
+import Profil1 from './pages/profil1'
+import Profil2 from './pages/profil2'
+import Profil3 from './pages/profil3'
 import Stok from './pages/stok'
 import Tambahhasiltangkapan from './pages/tambahhasiltangkapan'
 import Tentangkami1 from './pages/tentangkami1'
@@ -25,6 +28,7 @@ import Tentangkami3 from './pages/tentangkami3'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
   useEffect(() => {
@@ -50,7 +54,10 @@ function App() {
         <Route path="/nelayan" element={<Nelayan />} />
         <Route path="/panduan1" element={<Panduan1 />} />
         <Route path="/panduan2" element={<Panduan2 />} />
-        <Route path="/profil" element={<Profil />} />
+        <Route path="/pengaturanlaporkanmasalah" element={<Pengaturanlaporkanmasalah />} />
+        <Route path="/profil1" element={<Profil1 />} />
+        <Route path="/profil2" element={<Profil2 />} />
+        <Route path="/profil3" element={<Profil3 />} />
         <Route path="/stok" element={<Stok />} />
         <Route path="/tambahhasiltangkapan" element={<Tambahhasiltangkapan />} />
         <Route path="/tentangkami1" element={<Tentangkami1 />} />

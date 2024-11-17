@@ -42,6 +42,42 @@ export function tampilkanPopupBerhasil(event) {
   });
 }
 
+export function tampilkanPopupBerhasilPerubahanProfil(event) {
+  event.preventDefault();
+  const berhasilSimpanPopup = document.getElementById("popup-berhasil-simpan");
+  berhasilSimpanPopup.className = "popup-hapus-tampil";
+  setTimeout(function () {
+    window.location.href = "profil1";
+  }, 3000);
+  berhasilSimpanPopup.addEventListener("click", function () {
+    window.location.href = "profil1";
+  });
+}
+
+export function tampilkanPopupBerhasilPerubahanKataSandi(event) {
+  event.preventDefault();
+  const berhasilSimpanPopup = document.getElementById("popup-berhasil-simpan");
+  berhasilSimpanPopup.className = "popup-hapus-tampil";
+  setTimeout(function () {
+    window.location.href = "profil2";
+  }, 3000);
+  berhasilSimpanPopup.addEventListener("click", function () {
+    window.location.href = "profil2";
+  });
+}
+
+export function tampilkanPopupBerhasilLaporankanMasalah(event) {
+  event.preventDefault();
+  const berhasilSimpanPopup = document.getElementById("popup-berhasil-simpan");
+  berhasilSimpanPopup.className = "popup-hapus-tampil";
+  setTimeout(function () {
+    window.location.href = "pengaturanlaporkanmasalah";
+  }, 3000);
+  berhasilSimpanPopup.addEventListener("click", function () {
+    window.location.href = "pengaturanlaporkanmasalah";
+  });
+}
+
 export function tampilkanPopupBerhasilLogin(event) {
   event.preventDefault();
   const berhasilSimpanPopup = document.getElementById("popup-berhasil-simpan");
@@ -77,13 +113,15 @@ export function toggleContent(buttonClass) {
   }
 }
 
-export function togglePassword() {
-  const passwordInput = document.getElementById("password");
-  const openEyeIcon = document.getElementById("open-eye-password");
-  const closeEyeIcon = document.getElementById("close-eye-password");
+export function togglePassword(passwordId) {
+  const passwordInput = document.getElementById(passwordId);
+  const openEyeIcon = document.getElementById(`open-eye-${passwordId}`);
+  const closeEyeIcon = document.getElementById(`close-eye-${passwordId}`);
 
+  // Toggle input type (password / text)
   passwordInput.type = passwordInput.type === "password" ? "text" : "password";
 
+  // Toggle visibility of eye icons
   openEyeIcon.classList.toggle("d-none");
   closeEyeIcon.classList.toggle("d-none");
 }
@@ -109,4 +147,8 @@ export function tampilkanPopupNelayan() {
     popup.style.visibility = "hidden";
     popup.style.opacity = "0";
   });
+}
+
+export function keluarWebsite() {
+  window.location.href = "/";
 }

@@ -19,6 +19,12 @@ select {
   appearance: none;
 }
 
+.wrapper-navbar-div {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 /* Mengubah Warna Background NavBar dan Memberikan Padding dan Sticky diatas halaman*/
 .navbar {
   background-color: #ff4800 !important;
@@ -520,10 +526,6 @@ select {
   -o-border-radius: 25px;
 }
 
-.gambar-detail-hasil-tangkapan:hover {
-  width: 26%;
-}
-
 .informasi-detail-hasil-tangkapan {
   display: flex;
   flex-direction: column;
@@ -602,10 +604,6 @@ select {
 .wrapper-catatan-hasil button a img {
   width: 2.8rem;
   height: 2.8rem;
-}
-
-.tambah-gambar-detail-hasil-tangkapan:hover {
-  width: 25%;
 }
 
 .add-image {
@@ -871,6 +869,10 @@ select {
 .popup-message-child {
   font-size: 1rem;
   margin-top: -10px;
+}
+
+.wrapper-main-content {
+  padding: 30px 60px 120px;
 }
 
 .third-content-informasi-nelayan
@@ -1181,7 +1183,8 @@ select {
   flex-direction: row;
 }
 
-.main-content-tentang-kami-section-satu {
+.main-content-tentang-kami-section-satu,
+.main-content-profil-section-satu {
   width: 30%;
   height: 100%;
   background-color: #ffb16d;
@@ -1193,13 +1196,57 @@ select {
   -o-border-radius: 20px;
 }
 
-.main-content-tentang-kami-section-satu a {
+.main-content-profil-section-satu {
+  position: relative;
+}
+
+.main-content-profil-section-satu-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  background-image: url("assets/background avatar profile.png");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  border-radius: 20px 20px 0 0;
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  -ms-border-radius: 20px 20px 0 0;
+  -o-border-radius: 20px 20px 0 0;
+}
+
+.profil-info-section-satu {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.profil-info-section-satu img {
+  width: 65%;
+}
+
+.profil-info-section-satu .profil-name {
+  margin: 10px 0 30px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.main-content-tentang-kami-section-satu a,
+.main-content-profil-section-satu a {
   text-decoration: none;
 }
 
 .link-tentang-kami-nav-satu,
 .link-tentang-kami-nav-dua,
-.link-tentang-kami-nav-tiga {
+.link-tentang-kami-nav-tiga,
+.link-profil-nav-satu,
+.link-profil-nav-dua,
+.link-profil-nav-tiga,
+.link-profil-nav-empat {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
@@ -1215,8 +1262,27 @@ select {
   -o-border-radius: 20px;
 }
 
-.tentang-kami-nav-active {
+.link-profil-nav-empat {
+  cursor: pointer;
+}
+
+.link-tentang-kami-nav-satu:hover,
+.link-tentang-kami-nav-dua:hover,
+.link-tentang-kami-nav-tiga:hover,
+.link-profil-nav-satu:hover,
+.link-profil-nav-dua:hover,
+.link-profil-nav-tiga:hover,
+.link-profil-nav-empat:hover {
   font-weight: 1000;
+}
+
+.tentang-kami-nav-active,
+.profil-nav-active {
+  font-weight: 1000;
+}
+
+.main-content-profil-section-satu img {
+  margin-right: 12px;
 }
 
 .main-content-tentang-kami-section-kedua {
@@ -1244,7 +1310,8 @@ select {
   -o-border-radius: 5rem;
 }
 
-.main-content-tentang-kami-section-kedua-isi {
+.main-content-tentang-kami-section-kedua-isi,
+.main-content-profil-section-kedua-isi {
   background-color: #ffb16d;
   padding: 30px 30px 0;
   border-radius: 20px;
@@ -1252,6 +1319,155 @@ select {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+
+.main-content-profil-section-kedua-isi {
+  padding: 30px 60px;
+}
+
+.main-content-profil-section-kedua-isi form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-content-profil-section-kedua-isi form img {
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+.custom-file-upload {
+  cursor: pointer;
+  color: #ff4800;
+  font-weight: 600;
+}
+
+.form-wrapper-profil-section-kedua {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-wrapper-profil-section-kedua label {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.form-wrapper-profil-section-kedua input {
+  border: 3px solid #ff620a;
+  padding: 12px 20px;
+  outline: none;
+  position: relative;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.input-simpan-perubahan {
+  padding: 18px 20px;
+  margin: 40px 0 10px;
+  text-align: center;
+  border: none;
+  background-color: #ff620a;
+  color: #fff;
+  width: 60%;
+  outline: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.input-simpan-perubahan:hover {
+  font-weight: 500;
+}
+
+.main-content-profil-section-kedua-isi h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.main-content-profil-section-kedua-isi h6 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.wrapper-password-input-konfirmasi {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-password-input-konfirmasi img {
+  width: 1.5em !important;
+  margin: 0 !important;
+  top: 55px !important;
+}
+
+.wrapper-link-pengaturan {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-pengaturan {
+  color: #ffb16d;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 15px 25px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.link-pengaturan:hover {
+  font-weight: 600;
+}
+
+.form-laporkan-masalah {
+  position: relative;
+}
+
+.isi-laporkan-masalah {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+  resize: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.form-laporkan-masalah button {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  background: none;
+  outline: none;
+  border: none;
+  width: 5%;
+}
+
+.form-laporkan-masalah button img {
+  width: 2em;
 }
 
 .main-title-tentang-kami {
@@ -1954,6 +2170,10 @@ select {
     right: 31%;
     bottom: 51%;
   }
+
+  .form-check-input {
+    width: 20% !important;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1994,6 +2214,14 @@ select {
 
   .profile-card {
     width: 35%;
+  }
+
+  .form-check-input {
+    width: 22% !important;
+  }
+
+  .form-laporkan-masalah button {
+    right: 25px;
   }
 }
 
@@ -2158,6 +2386,10 @@ select {
   .wrapper-personal {
     width: 45%;
   }
+
+  .form-check-input {
+    width: 30% !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -2290,12 +2522,46 @@ select {
   }
 
   .main-content-tentang-kami-section-satu,
-  .main-content-tentang-kami-section-kedua {
+  .main-content-tentang-kami-section-kedua,
+  .main-content-profil-section-satu,
+  .main-content-profil-section-kedua {
     width: 100%;
     margin: 0;
   }
   .main-content-tentang-kami-section-kedua-judul {
     margin-top: 30px;
+  }
+
+  .profil-info-section-satu img {
+    width: 40%;
+  }
+
+  .main-content-profil-section-kedua-isi {
+    margin-top: 50px;
+    padding: 30px 40px;
+  }
+
+  .main-content-profil-section-kedua-isi form img {
+    width: 40%;
+  }
+
+  .input-simpan-perubahan {
+    width: 70%;
+  }
+
+  .form-laporkan-masalah button {
+    width: 40px;
+    right: 15px;
+    bottom: 35px;
+  }
+
+  .form-laporkan-masalah img {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .wrapper-main-content {
+    padding-bottom: 130px;
   }
 }
 
@@ -2420,6 +2686,7 @@ select {
 
   .wrapper-detail-hasil-tangkapan {
     flex-direction: column;
+    padding-bottom: 60px;
   }
 
   .form-detail-hasil-tangkapan {
@@ -2498,9 +2765,50 @@ select {
     width: 100%;
     margin-bottom: 60px;
   }
+
+  .profil-info-section-satu img {
+    width: 60%;
+  }
+  .main-content-profil-section-kedua-isi form img {
+    width: 60%;
+  }
+  .input-simpan-perubahan {
+    width: 85%;
+  }
+
+  .main-content-profil-section-kedua-isi {
+    padding: 30px 20px;
+  }
+
+  .form-wrapper-profil-section-kedua label {
+    font-size: 1rem;
+  }
+
+  .wrapper-password-input-konfirmasi img {
+    top: 50px !important;
+  }
+
+  .form-check-input {
+    width: 35% !important;
+  }
+
+  .wrapper-main-content {
+    padding: 40px 30px 140px;
+  }
 }
 
 @media (max-width: 430px) {
+  .navbar {
+    padding: 10px 15px;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+  .navbar-brand {
+    margin-right: auto;
+  }
   .popup-welcome-content h1 {
     font-size: 1.3rem;
     text-shadow: -1.5px -1.5px 0 #ffd2a5, 1.5px -1.5px 0 #ffd2a5,
@@ -2571,5 +2879,45 @@ select {
   .profile-card img {
     width: 140px;
     height: 140px;
+  }
+
+  .form-check-input {
+    width: 45% !important;
+  }
+
+  .wrapper-navbar-bottom {
+    display: flex;
+  }
+
+  .nav-item:nth-child(1) {
+    display: none;
+  }
+
+  .nav-item:nth-child(2) {
+    display: none;
+  }
+
+  .wrapper-navbar-bottom {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff620a;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 16.5%;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .wrapper-navbar-bottom a {
+    width: 11%;
+  }
+
+  .wrapper-navbar-bottom img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 }
