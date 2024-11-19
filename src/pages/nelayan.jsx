@@ -23,117 +23,58 @@ function nelayan() {
           <div className="main-title">
             <p>Informasi Nelayan</p>
           </div>
-          <div className="third-content third-content-informasi-nelayan">
-            <table>
+          <div className="wrapper-tabel-nelayan">
+            <table className="tabel-nelayan">
               <thead>
                 <tr>
-                  <th>Nelayan</th>
-                  <th>Aksi</th>
+                  <td>Nama</td>
+                  <td>No Telepon</td>
+                  <td>Email</td>
+                  <td>Tanggal Lahir</td>
+                  <td>Alamat</td>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>
-                    <button
+                  <button
                       onClick={() => script.tampilkanPopupNelayan()}
                       className="link-avatar"
                     >
-                      <img src="assets/pak bahrul.png" alt="Gambar Profil" />{" "}
-                      Pak Bahrul
+                    <div className="content-tabel-nelayan">
+                      <img src="assets/pak bahrul.png" alt="" />
+                      <span>Pak Bahrul</span>
+                    </div>
                     </button>
                   </td>
-                  <td>
-                    <a href="laporandetail"> Detail </a>
-                  </td>
+                  <td>081389082249</td>
+                  <td>bahrulkece@gmail.com</td>
+                  <td>21 Oktober 1984</td>
+                  <td>Batam, Batu Merah</td>
                 </tr>
                 <tr>
                   <td>
-                    <button className="link-avatar">
-                      <img src="assets/gambar profil.jpg" alt="Gambar Profil" />
-                      Pak Bambang
-                    </button>
+                    <div className="content-tabel-nelayan">
+                      <img src="assets/gambar profil.jpg" alt="" />
+                      <span>Pak Bambang</span>
+                    </div>
                   </td>
-
-                  <td>
-                    <a href="/"> Detail </a>
-                  </td>
+                  <td>081323456789</td>
+                  <td>bambang@gmail.com</td>
+                  <td>10 November 1970</td>
+                  <td>Batam, Batu Merah</td>
                 </tr>
                 <tr>
                   <td>
-                    <button className="link-avatar">
-                      <img src="assets/gambar profil.jpg" alt="Gambar Profil" />
-                      Pak Iwan
-                    </button>
+                    <div className="content-tabel-nelayan">
+                      <img src="assets/gambar profil.jpg" alt="" />
+                      <span>Pak Iwan</span>
+                    </div>
                   </td>
-                  <td>
-                    <a href="/"> Detail </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button className="link-avatar">
-                      <img src="assets/gambar profil.jpg" alt="Gambar Profil" />
-                      Pak Agung
-                    </button>
-                  </td>
-                  <td>
-                    <a href="/"> Detail </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button className="link-avatar">
-                      <img src="assets/gambar profil.jpg" alt="Gambar Profil" />
-                      Pak Djumadil
-                    </button>
-                  </td>
-                  <td>
-                    <a href="/"> Detail </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button className="link-avatar">
-                      <img src="assets/gambar profil.jpg" alt="Gambar Profil" />
-                      Pak Widodo
-                    </button>
-                  </td>
-                  <td>
-                    <a href="/"> Detail </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button className="link-avatar">
-                      <img src="assets/gambar profil.jpg" alt="Gambar Profil" />
-                      Pak Joko
-                    </button>
-                  </td>
-                  <td>
-                    <a href="/"> Detail </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button className="link-avatar">
-                      <img src="assets/gambar profil.jpg" alt="Gambar Profil" />
-                      Pak Heru
-                    </button>
-                  </td>
-                  <td>
-                    <a href="/"> Detail </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button className="link-avatar">
-                      <img src="assets/gambar profil.jpg" alt="Gambar Profil" />
-                      Pak Pengepul
-                    </button>
-                  </td>
-                  <td>
-                    <a href="/"> Detail </a>
-                  </td>
+                  <td>081323456987</td>
+                  <td>Iwanoke.@gmail.com</td>
+                  <td>15 Januari 1987</td>
+                  <td>Batam, Batu Merah</td>
                 </tr>
               </tbody>
             </table>

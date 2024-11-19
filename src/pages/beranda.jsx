@@ -54,69 +54,48 @@ function beranda() {
               data-aos-duration="800"
               data-aos-once="true"
             >
-              <a
+              <div
                 href="panduan1"
                 className="card-main-content-panduan-dan-artikel-secondary"
-                style={{
-                  backgroundImage:
-                    'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/artikel 1.png")',
-                }}
               >
-                <span>15 Oktober 2024</span>
+                <img src="assets/artikel 1.png" alt="panduan" />
                 <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
-                  <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Inovasi
-                    </div>
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Tangkapan
-                    </div>
-                  </div>
-                  <p>Inovasi dalam Penangkapan</p>
+                  <h2>Rantai Distribusi Perikanan</h2>
+                  <h3>
+                    Hubungan Nelayan, Pengepul Ikan, Pedagang Ikan melalui Teori
+                    Struktural
+                  </h3>
+                  <a href="panduan2">Baca Selengkapnya</a>
                 </div>
-              </a>
-              <a
+              </div>
+              <div
                 href="beranda"
                 className="card-main-content-panduan-dan-artikel-secondary"
-                style={{
-                  backgroundImage:
-                    'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/artikel 2.png")',
-                }}
               >
-                <span>18 Oktober 2024</span>
+                <img src="assets/artikel 2.png" alt="panduan" />
                 <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
-                  <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Tradisi
-                    </div>
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Nelayan
-                    </div>
-                  </div>
-                  <p>Tradisi & Modernisasi Nelayan</p>
+                  <h2>Tradisi & Modernisasi Nelayan</h2>
+                  <h3>
+                    Muro, Tradisi Merawat Ekosistem Laut yang Berkelanjutan di
+                    Lembata
+                  </h3>
+                  <a href="beranda">Baca Selengkapnya</a>
                 </div>
-              </a>
-              <a
+              </div>
+              <div
                 href="beranda"
                 className="card-main-content-panduan-dan-artikel-secondary"
-                style={{
-                  backgroundImage:
-                    'linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("assets/artikel 3.png")',
-                }}
               >
-                <span>22 Oktober 2024</span>
+                <img src="assets/artikel 3.png" alt="panduan" />
                 <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi">
-                  <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-wrapper">
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Inovasi
-                    </div>
-                    <div className="card-main-content-panduan-dan-artikel-secondary-deskripsi-kategori">
-                      Nelayan
-                    </div>
-                  </div>
-                  <p>Inovasi untuk Nelayan</p>
+                  <h2>Inovasi Untuk Nelayan</h2>
+                  <h3>
+                    Tanpa BBM, Kapal Nelayan Inovasi Mahasiswa ITS Ramah
+                    Lingkungan
+                  </h3>
+                  <a href="beranda">Baca Selengkapnya</a>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>

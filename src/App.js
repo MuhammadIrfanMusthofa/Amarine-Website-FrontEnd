@@ -16,7 +16,6 @@ import Main from './pages/main'
 import Nelayan from './pages/nelayan'
 import Panduan1 from './pages/panduan1'
 import Panduan2 from './pages/panduan2'
-import Pengaturanlaporkanmasalah from './pages/pengaturanlaporkanmasalah'
 import Profil1 from './pages/profil1'
 import Profil2 from './pages/profil2'
 import Profil3 from './pages/profil3'
@@ -54,7 +53,6 @@ function App() {
         <Route path="/nelayan" element={<Nelayan />} />
         <Route path="/panduan1" element={<Panduan1 />} />
         <Route path="/panduan2" element={<Panduan2 />} />
-        <Route path="/pengaturanlaporkanmasalah" element={<Pengaturanlaporkanmasalah />} />
         <Route path="/profil1" element={<Profil1 />} />
         <Route path="/profil2" element={<Profil2 />} />
         <Route path="/profil3" element={<Profil3 />} />

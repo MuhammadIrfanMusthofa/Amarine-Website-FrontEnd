@@ -13,109 +13,115 @@ function stok() {
       {/* Main Content */}
       <div className="main-content container-fluid">
         <div
-          className="wrapper-main-content wrapper-main-content-stok"
+          className="wrapper-main-content"
           data-aos="fade-down"
           data-aos-duration="900"
           data-aos-once="true"
         >
           <div className="main-title">
             <p>Detail Stok</p>
-            <div className="date-title ms-auto">
-              <button type="button" href="stok">
-                <p>
-                  14 Oktober 2024
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1.2em"
-                    height="1.2em"
-                    viewBox="0 0 24 24"
-                  >
-                    <g fill="none">
-                      <path
-                        stroke="black"
-                        stroke-width="1.5"
-                        d="M2 12c0-3.771 0-5.657 1.172-6.828S6.229 4 10 4h4c3.771 0 5.657 0 6.828 1.172S22 8.229 22 12v2c0 3.771 0 5.657-1.172 6.828S17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.172S2 17.771 2 14z"
-                      />
-                      <path
-                        stroke="black"
-                        stroke-linecap="round"
-                        stroke-width="1.5"
-                        d="M7 4V2.5M17 4V2.5M2.5 9h19"
-                      />
-                      <path
-                        fill="black"
-                        d="M18 17a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0"
-                      />
-                    </g>
-                  </svg>
-                </p>
-              </button>
-            </div>
           </div>
-          <div className="third-content third-content-detail-stok">
-            <table>
+          <div className="wrapper-tabel-stok">
+            <div className="header-wrapper-tabel-stok">
+              <div className="total-terjual">Terjual</div>
+              <div className="jumlah-terjual">50 Kg</div>
+              <div className="total-tersedia">Tersedia</div>
+              <div className="jumlah-tersedia">50 Kg</div>
+              <div className="date-title ms-auto">
+                <button type="button" href="laporan">
+                  <p>
+                    14 Oktober 2024
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="1.2em"
+                      height="1.2em"
+                      viewBox="0 0 24 24"
+                    >
+                      <g fill="none">
+                        <path
+                          stroke="black"
+                          stroke-width="1.5"
+                          d="M2 12c0-3.771 0-5.657 1.172-6.828S6.229 4 10 4h4c3.771 0 5.657 0 6.828 1.172S22 8.229 22 12v2c0 3.771 0 5.657-1.172 6.828S17.771 22 14 22h-4c-3.771 0-5.657 0-6.828-1.172S2 17.771 2 14z"
+                        />
+                        <path
+                          stroke="black"
+                          stroke-linecap="round"
+                          stroke-width="1.5"
+                          d="M7 4V2.5M17 4V2.5M2.5 9h19"
+                        />
+                        <path
+                          fill="black"
+                          d="M18 17a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0"
+                        />
+                      </g>
+                    </svg>
+                  </p>
+                </button>
+              </div>
+            </div>
+            <table className="tabel-stok">
               <thead>
                 <tr>
-                  <th>Nama</th>
-                  <th>Jenis</th>
-                  <th>Terjual (Kg)</th>
-                  <th>Tersedia (Kg)</th>
+                  <td>Nama</td>
+                  <td>Jenis Ikan</td>
+                  <td>Terjual</td>
+                  <td>Tersedia</td>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Ikan Nila</td>
                   <td>Ikan</td>
-                  <td>20</td>
-                  <td>50</td>
+                  <td>6 Kg</td>
+                  <td>6 Kg</td>
                 </tr>
                 <tr>
                   <td>Ikan Kerapu</td>
                   <td>Ikan</td>
-                  <td>35</td>
-                  <td>44</td>
+                  <td>4 Kg</td>
+                  <td>4 Kg</td>
                 </tr>
                 <tr>
                   <td>Ikan Bawal</td>
                   <td>Ikan</td>
-                  <td>25</td>
-                  <td>38</td>
+                  <td>5 Kg</td>
+                  <td>5 Kg</td>
                 </tr>
                 <tr>
                   <td>Ikan Tongkol</td>
                   <td>Ikan</td>
-                  <td>60</td>
-                  <td>67</td>
+                  <td>4 Kg</td>
+                  <td>4 Kg</td>
                 </tr>
                 <tr>
                   <td>Sotong</td>
                   <td>Gurita</td>
-                  <td>16</td>
-                  <td>41</td>
+                  <td>7 Kg</td>
+                  <td>7 Kg</td>
                 </tr>
                 <tr>
                   <td>Kepiting</td>
                   <td>Kepiting</td>
-                  <td>45</td>
-                  <td>59</td>
+                  <td>5 Kg</td>
+                  <td>5 Kg</td>
                 </tr>
                 <tr>
                   <td>Gurita</td>
                   <td>Gurita</td>
-                  <td>32</td>
-                  <td>32</td>
+                  <td>8 Kg</td>
+                  <td>8 Kg</td>
                 </tr>
                 <tr>
                   <td>Udang</td>
                   <td>Udang</td>
-                  <td>44</td>
-                  <td>45</td>
+                  <td>5 Kg</td>
+                  <td>5 Kg</td>
                 </tr>
                 <tr>
                   <td>Cumi</td>
                   <td>Cumi-cumi</td>
-                  <td>28</td>
-                  <td>42</td>
+                  <td>6 Kg</td>
+                  <td>6 Kg</td>
                 </tr>
               </tbody>
             </table>

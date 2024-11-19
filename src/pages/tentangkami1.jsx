@@ -59,7 +59,7 @@ function tentangkami1() {
               <p className="sub-title-tentang-kami">Kontak dan Dukungan</p>
               <p className="isi-sub-title-tentang-kami">
                 Jika Anda memiliki pertanyaan atau butuh bantuan, jangan ragu
-                hubungi kami di Amarine@gmail.com atau kunjungi halaman Laporkan
+                hubungi kami di <span>Amarine@gmail.com</span> atau kunjungi halaman Laporkan
                 Masalah.
               </p>
             </div>

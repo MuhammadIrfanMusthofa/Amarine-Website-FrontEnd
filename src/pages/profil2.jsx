@@ -41,8 +41,8 @@ function profil2() {
             </a>
             <a href="profil3">
               <div className="link-profil-nav-tiga">
-                <img src="assets/setting icon.svg" alt="" />
-                Pengaturan
+                <img src="assets/laporkan masalah icon.svg" alt="" />
+                Laporkan Masalah
               </div>
             </a>
             <div

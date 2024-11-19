@@ -41,8 +41,8 @@ function profil1() {
             </a>
             <a href="profil3">
               <div className="link-profil-nav-tiga">
-                <img src="assets/setting icon.svg" alt="" />
-                Pengaturan
+                <img src="assets/laporkan masalah icon.svg" alt="" />
+                Laporkan Masalah
               </div>
             </a>
             <div
@@ -62,6 +62,7 @@ function profil1() {
                   script.tampilkanPopupBerhasilPerubahanProfil(event)
                 }
               >
+                <div className="main-content-profil-section-kedua-background-image"></div>
                 <img src="assets/pak bahrul.png" alt="" />
                 <input
                   type="file"

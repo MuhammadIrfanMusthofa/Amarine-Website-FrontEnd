@@ -71,10 +71,10 @@ export function tampilkanPopupBerhasilLaporankanMasalah(event) {
   const berhasilSimpanPopup = document.getElementById("popup-berhasil-simpan");
   berhasilSimpanPopup.className = "popup-hapus-tampil";
   setTimeout(function () {
-    window.location.href = "pengaturanlaporkanmasalah";
+    window.location.href = "profil3";
   }, 3000);
   berhasilSimpanPopup.addEventListener("click", function () {
-    window.location.href = "pengaturanlaporkanmasalah";
+    window.location.href = "profil3";
   });
 }
 

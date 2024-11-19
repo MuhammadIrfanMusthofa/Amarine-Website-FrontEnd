@@ -32,6 +32,7 @@ function tambahhasiltangkapan() {
               >
                 <div className="gambar-detail-hasil-tangkapan tambah-gambar-detail-hasil-tangkapan">
                   Gambar
+                  <hr />
                   <img src="assets/placeholder image.png" alt="Gambar" />
                   <button className="add-image">
                     <input
@@ -51,7 +52,26 @@ function tambahhasiltangkapan() {
                   </button>
                 </div>
                 <div className="informasi-detail-hasil-tangkapan tambah-informasi-detail-hasil-tangkapan">
-                  <p>Informasi</p>
+                  <p className="m-0">Informasi</p>
+                  <hr />
+                  <div className="jenis-detail">
+                    <label for="nama" className="judul-informasi">
+                      Nama
+                    </label>
+                    <input
+                      type="text"
+                      name="nama"
+                      id=""
+                      className="isi-informasi"
+                      required
+                      onInvalid={(e) =>
+                        e.target.setCustomValidity(
+                          "Tolong masukkan Data Valid!"
+                        )
+                      }
+                      onInput={(e) => e.target.setCustomValidity("")}
+                    />
+                  </div>
                   <div className="jenis-detail">
                     <label for="jenis" className="judul-informasi">
                       Jenis

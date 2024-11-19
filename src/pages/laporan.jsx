@@ -20,7 +20,16 @@ function laporan() {
         >
           <div className="main-title">
             <p>Laporan Hasil Nelayan</p>
-            <div className="date-title ms-auto">
+          </div>
+          <div className="wrapper-tabel-laporan">
+            <div className="header-wrapper-tabel-laporan">
+          <div className="total-kuantitas">
+            Total Kuantitas
+          </div>
+          <div className="jumlah-kuantitas">
+            429 Kg
+          </div>
+          <div className="date-title ms-auto">
               <button type="button" href="laporan">
                 <p>
                   14 Oktober 2024
@@ -51,115 +60,95 @@ function laporan() {
                 </p>
               </button>
             </div>
-          </div>
-          <div className="secondary-title">
-            <div className="secondary-main-title">
-              <p>Total Kuantitas</p>
-              <p className="ms-auto">429 Kg</p>
             </div>
-            <div className="secondary-wrapper-jual">
-              <a href="laporan"> Jual Hasil Tangkapan </a>
-            </div>
-          </div>
-          <div className="third-content">
-            <table>
+            <table className="tabel-laporan">
               <thead>
                 <tr>
-                  <th>Nelayan</th>
-                  <th>Jumlah Kuantitas (Kg)</th>
-                  <th>Aksi</th>
+                  <td>Nelayan</td>
+                  <td>Jumlah Kuantitas</td>
+                  <td>Aksi</td>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>
-                    <img src="assets/gambar profil.jpg" alt="Gambar Profil" />{" "}
-                    Pak Bahrul
+                    <div className="content-tabel-laporan-nelayan">
+                      <img src="assets/pak bahrul.png" alt="" />
+                      <span>Pak Bahrul</span>
+                    </div>
                   </td>
-                  <td>50</td>
-                  <td>
-                    <a href="laporandetail"> Detail </a>
-                  </td>
+                  <td>50 Kg</td>
+                  <td><a href="laporandetail">Detail</a></td>
                 </tr>
                 <tr>
                   <td>
-                    <img src="assets/gambar profil.jpg" alt="Gambar Profil" />{" "}
-                    Pak Bambang
+                    <div className="content-tabel-laporan-nelayan">
+                      <img src="assets/gambar profil.jpg" alt="" />
+                      <span>Pak Bambang</span>
+                    </div>
                   </td>
-                  <td>44</td>
-                  <td>
-                    <a href="laporan"> Detail </a>
-                  </td>
+                  <td>44 Kg</td>
+                  <td><a href="laporandetail">Detail</a></td>
                 </tr>
                 <tr>
                   <td>
-                    <img src="assets/gambar profil.jpg" alt="Gambar Profil" />{" "}
-                    Pak Iwan
+                    <div className="content-tabel-laporan-nelayan">
+                      <img src="assets/gambar profil.jpg" alt="" />
+                      <span>Pak Iwan</span>
+                    </div>
                   </td>
-                  <td>38</td>
-                  <td>
-                    <a href="laporan"> Detail </a>
-                  </td>
+                  <td>38 Kg</td>
+                  <td><a href="laporandetail">Detail</a></td>
                 </tr>
                 <tr>
                   <td>
-                    <img src="assets/gambar profil.jpg" alt="Gambar Profil" />{" "}
-                    Pak Agung
+                    <div className="content-tabel-laporan-nelayan">
+                      <img src="assets/gambar profil.jpg" alt="" />
+                      <span>Pak Iwan</span>
+                    </div>
                   </td>
-                  <td>67</td>
-                  <td>
-                    <a href="laporan"> Detail </a>
-                  </td>
+                  <td>38 Kg</td>
+                  <td><a href="laporandetail">Detail</a></td>
                 </tr>
                 <tr>
                   <td>
-                    <img src="assets/gambar profil.jpg" alt="Gambar Profil" />{" "}
-                    Pak Djumadil
+                    <div className="content-tabel-laporan-nelayan">
+                      <img src="assets/gambar profil.jpg" alt="" />
+                      <span>Pak Iwan</span>
+                    </div>
                   </td>
-                  <td>41</td>
-                  <td>
-                    <a href="laporan"> Detail </a>
-                  </td>
+                  <td>38 Kg</td>
+                  <td><a href="laporandetail">Detail</a></td>
                 </tr>
                 <tr>
                   <td>
-                    <img src="assets/gambar profil.jpg" alt="Gambar Profil" />{" "}
-                    Pak Widodo
+                    <div className="content-tabel-laporan-nelayan">
+                      <img src="assets/gambar profil.jpg" alt="" />
+                      <span>Pak Iwan</span>
+                    </div>
                   </td>
-                  <td>59</td>
-                  <td>
-                    <a href="laporan"> Detail </a>
-                  </td>
+                  <td>38 Kg</td>
+                  <td><a href="laporandetail">Detail</a></td>
                 </tr>
                 <tr>
                   <td>
-                    <img src="assets/gambar profil.jpg" alt="Gambar Profil" />{" "}
-                    Pak Joko
+                    <div className="content-tabel-laporan-nelayan">
+                      <img src="assets/gambar profil.jpg" alt="" />
+                      <span>Pak Iwan</span>
+                    </div>
                   </td>
-                  <td>32</td>
-                  <td>
-                    <a href="laporan"> Detail </a>
-                  </td>
+                  <td>38 Kg</td>
+                  <td><a href="laporandetail">Detail</a></td>
                 </tr>
                 <tr>
                   <td>
-                    <img src="assets/gambar profil.jpg" alt="Gambar Profil" />{" "}
-                    Pak Heru
+                    <div className="content-tabel-laporan-nelayan">
+                      <img src="assets/gambar profil.jpg" alt="" />
+                      <span>Pak Iwan</span>
+                    </div>
                   </td>
-                  <td>45</td>
-                  <td>
-                    <a href="laporan"> Detail </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src="assets/gambar profil.jpg" alt="Gambar Profil" />{" "}
-                    Pak Pengepul
-                  </td>
-                  <td>42</td>
-                  <td>
-                    <a href="laporan"> Detail </a>
-                  </td>
+                  <td>38 Kg</td>
+                  <td><a href="laporandetail">Detail</a></td>
                 </tr>
               </tbody>
             </table>

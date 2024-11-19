@@ -19,7 +19,7 @@ function panduan2() {
           data-aos-duration="900"
           data-aos-once="true"
         >
-          Inovasi dalam Penangkapan Ikan untuk Masa Depan yang Berkelanjutan
+          Rantai Distribusi Perikanan
         </header>
         <div
           className="sumber-panduan-artikel"
@@ -28,14 +28,6 @@ function panduan2() {
           data-aos-once="true"
         >
           Sumber: Amarine Group
-        </div>
-        <div
-          className="tanggal-panduan-artikel"
-          data-aos="fade-down"
-          data-aos-duration="900"
-          data-aos-once="true"
-        >
-          15 Oktober 2024
         </div>
         <div
           className="gambar-panduan-artikel"

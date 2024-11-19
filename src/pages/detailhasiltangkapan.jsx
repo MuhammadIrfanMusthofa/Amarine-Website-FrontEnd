@@ -24,13 +24,19 @@ function detailhasiltangkapan() {
           <div className="wrapper-detail-hasil-tangkapan">
             <div className="gambar-detail-hasil-tangkapan">
               Gambar
+              <hr />
               <img src="assets/kepiting.jpg" alt="" />
             </div>
             <div className="informasi-detail-hasil-tangkapan">
-              <p>Informasi</p>
+              <p className="m-0">Informasi</p>
+              <hr />
+              <div className="jenis-detail">
+                <p className="judul-informasi">Nama</p>
+                <p className="isi-informasi">Kepiting Galah</p>
+              </div>
               <div className="jenis-detail">
                 <p className="judul-informasi">Jenis</p>
-                <p className="isi-informasi">Kepiting Galah</p>
+                <p className="isi-informasi">Kepiting</p>
               </div>
               <div className="jenis-detail">
                 <p className="judul-informasi">Berat</p>

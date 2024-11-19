@@ -3,7 +3,6 @@ import React from "react";
 import * as script from "../script";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import PopupLogout from "../components/PopupLogout";
 import NavbarMobile from "../components/NavbarMobile";
 
 function profil3() {
@@ -41,8 +40,8 @@ function profil3() {
             </a>
             <a href="profil3">
               <div className="link-profil-nav-tiga profil-nav-active">
-                <img src="assets/setting icon.svg" alt="" />
-                Pengaturan
+                <img src="assets/laporkan masalah icon.svg" alt="" />
+                Laporkan Masalah
               </div>
             </a>
             <div
@@ -55,21 +54,82 @@ function profil3() {
           </div>
           <div className="main-content-tentang-kami-section-kedua">
             <div className="main-content-profil-section-kedua-isi">
-              <h2>Pengaturan</h2>
-              <div className="wrapper-link-pengaturan">
-                <a href="pengaturanlaporkanmasalah" className="link-pengaturan">
-                  Laporkan Masalah
-                  <i class="fas fa-angle-right ms-auto"></i>
-                </a>
-              </div>
+              <h2>Laporkan Masalah</h2>
+              <form
+                action=""
+                method="POST"
+                className="form-laporkan-masalah"
+                onSubmit={(event) =>
+                  script.tampilkanPopupBerhasilLaporankanMasalah(event)
+                }
+              >
+                <textarea
+                  id=""
+                  required
+                  rows={5}
+                  className="isi-laporkan-masalah"
+                  placeholder="Apa yang bisa kami bantu?"
+                  onInvalid={(e) =>
+                    e.target.setCustomValidity("Tolong tuliskan Masalah Anda!")
+                  }
+                  onInput={(e) => e.target.setCustomValidity("")}
+                ></textarea>
+                <button type="submit">
+                  <img src="assets/submit icon.svg" alt="Submit" />
+                </button>
+              </form>
+              <h6>Kami akan merespons Anda melalui Email</h6>
             </div>
           </div>
         </div>
       </div>
       {/* Main Content End */}
 
-      {/* Popup */}
-      <PopupLogout />
+      {/* Popup Berhasil Laporkan */}
+      <div id="popup-berhasil-simpan" className="popup-hidden-hapus">
+        <div className="popup-box">
+          <div className="popup-mini-icon"></div>
+          <div className="popup-mini-icon"></div>
+          <div className="popup-mini-icon"></div>
+          <div className="popup-mini-icon"></div>
+          <div className="popup-icon">
+            <img src="assets/accept.svg" alt="Berhasil" />
+          </div>
+          <p className="popup-message">Berhasil!</p>
+          <p className="popup-message popup-message-child">
+            Masalah berhasil dilaporkan, kami akan merespons anda melalui Email
+          </p>
+        </div>
+      </div>
+      {/* Popup End */}
+
+      {/* Popup Logout*/}
+      <div id="popup-hapus" className="popup-hidden-hapus">
+        <div className="popup-box">
+          <div className="popup-mini-icon"></div>
+          <div className="popup-mini-icon"></div>
+          <div className="popup-mini-icon"></div>
+          <div className="popup-mini-icon"></div>
+          <div className="popup-icon">
+            <img src="assets/logout icon 2.svg" alt="Trash Icon" />
+          </div>
+          <p className="popup-message">Anda yakin keluar dari akun?</p>
+          <div className="popup-buttons">
+            <button
+              className="btn btn-confirm"
+              onClick={() => script.keluarWebsite()}
+            >
+              Ya
+            </button>
+            <button
+              className="btn btn-cancel"
+              onClick={() => script.sembunyikanPopup()}
+            >
+              Tidak
+            </button>
+          </div>
+        </div>
+      </div>
       {/* Popup End */}
 
       {/* Footer */}
