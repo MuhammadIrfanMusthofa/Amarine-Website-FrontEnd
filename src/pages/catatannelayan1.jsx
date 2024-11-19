@@ -19,9 +19,6 @@ function catatannelayan1() {
         >
           <div className="main-search">
             <input type="text" placeholder="Apa yang ingin kamu cari?" />
-            <button type="button">
-              <img src="assets/Modify Button.png" alt="Modify" />
-            </button>
           </div>
           <div className="main-title">
             <p>Catatan Hasil Tangkapan Nelayan</p>

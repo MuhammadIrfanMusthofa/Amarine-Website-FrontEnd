@@ -20,9 +20,6 @@ function beranda() {
             placeholder="Apa yang ingin kamu cari?"
             style={{ marginTop: "30px" }}
           />
-          <button type="button">
-            <img src="assets/Modify Button.png" alt="Modify" />
-          </button>
         </div>
         <div className="wrapper-main-content-beranda-primary">
           <div className="main-content-text-beranda">

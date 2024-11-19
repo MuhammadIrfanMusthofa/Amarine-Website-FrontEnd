@@ -24,9 +24,6 @@ function panduan1() {
             placeholder="Apa yang ingin kamu cari?"
             style={{ marginTop: "30px" }}
           />
-          <button type="button">
-            <img src="assets/Modify Button.png" alt="Modify" />
-          </button>
         </div>
         <div
           className="wrapper-main-content-panduan-dan-artikel-secondary wrapper-main-content-panduan-dan-artikel wrapper-main-content-panduan-dan-artikel-2"

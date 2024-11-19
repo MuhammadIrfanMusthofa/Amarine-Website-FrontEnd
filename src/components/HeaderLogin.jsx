@@ -21,7 +21,7 @@ function HeaderLogin() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto align-items-center">
-              <li className="nav-item">
+              <li className="nav-item d-block">
                 <a className="nav-link active" aria-current="page" href="login">
                   MASUK
                 </a>

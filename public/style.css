@@ -126,7 +126,7 @@ select {
 }
 
 .main-content {
-  background-color: #F4fAFC;
+  background-color: #f4fafc;
   padding: 0;
   margin: 0;
 }
@@ -289,7 +289,8 @@ select {
   padding: 20px 0;
 }
 
-.content-tabel-laporan-nelayan, .content-tabel-nelayan {
+.content-tabel-laporan-nelayan,
+.content-tabel-nelayan {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -301,7 +302,8 @@ select {
   margin-left: 30% !important;
 }
 
-.content-tabel-laporan-nelayan img, .content-tabel-nelayan img {
+.content-tabel-laporan-nelayan img,
+.content-tabel-nelayan img {
   width: 44px;
   height: 44px;
   margin-right: 22px;
@@ -334,11 +336,13 @@ select {
   text-align: center;
 }
 
-.tabel-nelayan thead tr td, .tabel-nelayan tbody tr td {
+.tabel-nelayan thead tr td,
+.tabel-nelayan tbody tr td {
   width: 19% !important;
 }
 
-.tabel-nelayan thead tr td :first-child, .tabel-nelayan tbody tr td:first-child {
+.tabel-nelayan thead tr td :first-child,
+.tabel-nelayan tbody tr td:first-child {
   width: 24% !important;
 }
 
@@ -507,25 +511,8 @@ select {
   background-size: 22px;
 }
 
-.main-search button {
-  width: 4.3rem;
-  padding: 10px 15px;
-  margin-left: 15px;
-  background-color: #ff620a;
-  border: none;
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-
 .main-search input:focus {
   outline: none;
-}
-
-.main-search button img {
-  width: 80%;
 }
 
 .wrapper-catatan-hasil {
@@ -1159,7 +1146,7 @@ select {
 }
 
 .wrapper-main-content-panduan-dan-artikel-secondary-content {
-  background-color: #F4fAFC;
+  background-color: #f4fafc;
   padding: 100px 130px 0 130px;
 }
 
@@ -1222,13 +1209,13 @@ select {
 
 .card-main-content-panduan-dan-artikel-secondary-deskripsi a {
   width: 80%;
-  color: #FFF;
-  background-color: #FF620A;
+  color: #fff;
+  background-color: #ff620a;
   text-align: center;
   align-self: center;
   text-decoration: none;
   padding: 13px 10px;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 500;
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -1618,7 +1605,7 @@ select {
 }
 
 .main-title-tentang-kami {
-  color: #FF620A;
+  color: #ff620a;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -1643,7 +1630,7 @@ select {
 }
 
 .isi-sub-title-tentang-kami span {
-  color: #FF4800;
+  color: #ff4800;
 }
 
 .main-content-tentang-kami-section-kedua-isi button {
@@ -1666,7 +1653,7 @@ select {
   font-size: 1.1rem;
   color: #000;
   background-color: #fff;
-  border: 3px solid #D9D9D9;
+  border: 3px solid #d9d9d9;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -1897,7 +1884,7 @@ select {
 }
 
 .wrapper-main-content-panduan-dan-artikel {
-  padding: 80px;
+  padding: 40px 60px;
 }
 
 .wrapper-card-main-content-panduan-dan-artikel-secondary {
@@ -2319,13 +2306,15 @@ select {
     justify-content: center;
   }
 
-  .content-tabel-laporan-nelayan, .content-tabel-nelayan {
+  .content-tabel-laporan-nelayan,
+  .content-tabel-nelayan {
     flex-direction: column;
     margin: 0 !important;
   }
 
-  .content-tabel-laporan-nelayan img, .content-tabel-nelayan img {
-    margin: 0 0 15px 0 !important; 
+  .content-tabel-laporan-nelayan img,
+  .content-tabel-nelayan img {
+    margin: 0 0 15px 0 !important;
   }
 
   .tabel-nelayan tbody tr td:first-child {
@@ -2374,6 +2363,10 @@ select {
     padding: 0 !important;
   }
 
+  .main-search input {
+    width: 70%;
+  }
+
   .secondary-main-title p,
   .secondary-wrapper-jual a {
     font-size: 1rem;
@@ -2406,12 +2399,16 @@ select {
     width: 100%;
   }
 
+  .wrapper-main-content-panduan-dan-artikel {
+    padding: 30px 60px;
+  }
+
   .wrapper-catatan-hasil {
     gap: 10%;
   }
 
   .wrapper-card-main-content-panduan-dan-artikel-secondary {
-    width: 45%;
+    width: 100%;
   }
 
   .wrapper-main-content-panduan-dan-artikel-secondary-content-card {
@@ -2638,6 +2635,11 @@ select {
     width: 100%;
     margin: 0;
   }
+
+  .main-content-tentang-kami-section-kedua {
+    margin-top: 40px;
+  }
+
   .main-content-tentang-kami-section-kedua-judul {
     margin-top: 30px;
   }
@@ -2682,7 +2684,8 @@ select {
     padding: 10px 20px;
   }
 
-  .tabel-nelayan thead tr td , .tabel-nelayan tbody tr td {
+  .tabel-nelayan thead tr td,
+  .tabel-nelayan tbody tr td {
     padding-right: 10px;
   }
 }
@@ -2719,6 +2722,14 @@ select {
 
   .popup-welcome-content img {
     width: 1.8rem;
+  }
+
+  .main-search input {
+    width: 85%;
+  }
+
+  .wrapper-main-content-panduan-dan-artikel {
+    padding: 20px 50px;
   }
 
   .wrapper-main-content-beranda-primary {

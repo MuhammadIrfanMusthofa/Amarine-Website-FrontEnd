@@ -93,23 +93,6 @@ function main() {
       {/* Footer */}
       <FooterLogin />
       {/* Footer End */}
-
-      {/* Navbar Mobile */}
-      <div className="wrapper-navbar-bottom d-none">
-        <a href="login">
-          <img src="assets/laporan icon.svg" alt="Laporan" />
-        </a>
-        <a href="login">
-          <img src="assets/catatan nelayan icon.svg" alt="Catatan Nelayan" />
-        </a>
-        <a href="login">
-          <img src="assets/catatan pengepul icon.svg" alt="Catatan Pengepul" />
-        </a>
-        <a href="login">
-          <img src="assets/stok icon.svg" alt="Stok" />
-        </a>
-      </div>
-      {/* Navbar Mobile End*/}
     </div>
   );
 }
