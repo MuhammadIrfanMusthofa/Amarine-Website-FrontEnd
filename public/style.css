@@ -2649,7 +2649,6 @@ select {
   }
 
   .main-content-profil-section-kedua-isi {
-    margin-top: 50px;
     padding: 30px 40px;
   }
 
@@ -2729,7 +2728,7 @@ select {
   }
 
   .wrapper-main-content-panduan-dan-artikel {
-    padding: 20px 50px;
+    padding: 20px 30px;
   }
 
   .wrapper-main-content-beranda-primary {
@@ -2955,6 +2954,27 @@ select {
 
   .wrapper-tabel-nelayan {
     padding: 0 20px !important;
+  }
+
+  .wrapper-main-content-tentang-kami {
+    padding: 40px 30px 50px;
+  }
+
+  .wrapper-main-content-panduan-artikel-isi {
+    padding: 40px 30px;
+  }
+
+  .gambar-panduan-artikel {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .gambar-panduan-artikel img {
+    height: auto;
+  }
+
+  .footer-container {
+    padding-right: 20px;
   }
 }
 
