@@ -299,7 +299,7 @@ select {
 }
 
 .content-tabel-nelayan {
-  margin-left: 30% !important;
+  margin-left: 25% !important;
 }
 
 .content-tabel-laporan-nelayan img,
@@ -1165,7 +1165,7 @@ select {
 
 .card-main-content-panduan-dan-artikel-secondary {
   width: 29.3%;
-  height: 100%;
+  height: auto;
   margin-bottom: 100px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
